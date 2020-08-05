@@ -11,24 +11,24 @@
 </template>
 
 <script>
-    var collapsed = true;
+const collapsed = true;
 
-    export default {
-        name: 'ExhibitionSelection',
-        props: {
-            itemName: String,
-            description: String,
-        },
-        data: () => ({
-            collapsed,
-        }),
-        methods: {
-            itemClicked: function(){
-                console.log(this)
-                this.collapsed = !this.collapsed;
-            }
-        },
-    }
+export default {
+  name: 'ExhibitionSelection',
+  props: {
+    itemName: String,
+    description: String,
+  },
+  data: () => ({
+    collapsed,
+  }),
+  methods: {
+    itemClicked: function() {
+      console.log(this);
+      this.collapsed = !this.collapsed;
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -43,5 +43,5 @@
         color:white;
         font-family: 'Roboto';
         font-weight: 300;
-    }  
+    }
 </style>

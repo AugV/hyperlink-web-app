@@ -8,12 +8,12 @@
 
 <script>
 export default {
-    name: 'NavigationElement',
-    props: {
-        linkName: String,
-        linkPath: String,
-    }
-}
+  name: 'NavigationElement',
+  props: {
+    linkName: String,
+    linkPath: String,
+  },
+};
 </script>
 
 <style scoped>

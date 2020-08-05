@@ -6,7 +6,7 @@
                 linkPath="/about"
             />
         </div>
-        
+
         <div class="right-element">
             <NavigationElement
                 linkName="Contacts"
@@ -18,14 +18,14 @@
 </template>
 
 <script>
-    import NavigationElement from '@/components/navigation/NavigationElement';
+import NavigationElement from '@/components/navigation/NavigationElement';
 
-    export default {
-        name: 'NavigationBar',
-        components: {
-            NavigationElement,
-        }
-    }
+export default {
+  name: 'NavigationBar',
+  components: {
+    NavigationElement,
+  },
+};
 </script>
 
 <style scoped>

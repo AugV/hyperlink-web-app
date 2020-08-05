@@ -1,30 +1,30 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Landing from "../views/Landing";
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+import Landing from '../views/Landing';
 import Home from '../views/Home';
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
-  const routes = [
+const routes = [
   {
     path: '/',
     name: 'Landing',
-    component: Landing
+    component: Landing,
   },
   {
     path: '/home',
     name: 'Home',
-    component: Home
+    component: Home,
   },
   {
     path: '/about',
     name: 'About',
-    component: () => import('../views/About.vue')
-  }
-]
+    component: () => import('../views/About.vue'),
+  },
+];
 
 const router = new VueRouter({
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
