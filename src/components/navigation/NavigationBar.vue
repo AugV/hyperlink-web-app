@@ -31,8 +31,10 @@ export default {
 <style scoped>
     .left-element {
         float:left;
+        margin-left: 5px;
     }
     .right-element {
         float:right;
+        margin-right: 5px;
     }
 </style>

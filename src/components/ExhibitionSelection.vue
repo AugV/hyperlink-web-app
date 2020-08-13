@@ -6,6 +6,7 @@
 
         <div class="unfolded" v-bind:div="collapsed" v-if='!collapsed'>
             {{description}}
+              <router-link class="link" to="/expo">...view</router-link>
         </div>
     </div>
 </template>
@@ -32,16 +33,26 @@ export default {
 </script>
 
 <style scoped>
-    .folded {
-        font-size: 24pt;
-        color:white;
-        font-family: 'Roboto';
-    }
-    .unfolded {
-        font-size: 18pt;
-        text-align: justify;
-        color:white;
-        font-family: 'Roboto';
-        font-weight: 300;
-    }
+  .folded {
+      font-size: 24pt;
+      color:white;
+      font-family: 'Roboto';
+  }
+
+  .unfolded {
+      font-size: 18pt;
+      text-align: justify;
+      color:white;
+      font-family: 'Roboto';
+      font-weight: 300;
+      display: inline-block;
+  }
+
+  .link {
+    display: inline;
+    float: right;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+  }
 </style>

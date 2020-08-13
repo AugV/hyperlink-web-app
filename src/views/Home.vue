@@ -1,7 +1,8 @@
 <template>
+<div>
+    <NavigationBar/>
   <div class="home">
 
-    <NavigationBar/>
 
     <div class="landing-hyperlink">
         <router-link to="/home">Hyperlink</router-link>
@@ -19,6 +20,7 @@
     </div>
 
   </div>
+</div>
 </template>
 
 <script>
@@ -48,7 +50,6 @@ export default {
       text-align: center;
     }
     .exhibition-list {
-      position: absolute;
       margin: 5%;
     }
 </style>

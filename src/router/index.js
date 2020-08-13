@@ -2,6 +2,8 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Landing from '../views/Landing';
 import Home from '../views/Home';
+import About from '../views/About';
+import Expo from '../views/Expo';
 
 Vue.use(VueRouter);
 
@@ -19,7 +21,12 @@ const routes = [
   {
     path: '/about',
     name: 'About',
-    component: () => import('../views/About.vue'),
+    component: About,
+  },
+  {
+    path: '/expo',
+    name: 'Expo',
+    component: Expo,
   },
 ];
 
