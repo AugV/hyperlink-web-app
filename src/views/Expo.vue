@@ -9,11 +9,11 @@
 </p>
 
 <p>
-  Kada prasideda viduramžiai? Dažnam rašte, Viduramžių pradžia susiejama su Vakarų Romos Imperijos žlugimu.
+  Kada prasideda viduramžiai? Dažnam rašte, Viduramžių pradžia susiejama su <a href="https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire">Vakarų Romos Imperijos žlugimu</a>.
   Tačiau kaip ir Senajame Testamente krikščionys įžvelgia ženklus apie Naująjį, taip ir didžiojo Romos Imperatoriaus sapnas tapo pirmuoju naujosios,
-  ateinančios kultūros ženklu. Pirmasis imperatorius atsivertęs į krikščionybę – Konstantinas I, Šv. Elenos sūnus – prieš reikšmingą mūšį miegodamas,
-  regėjo ženklą danguje ir balsą sakantį: In hoc signo vinces (Šiuo ženklu nugalėsi). Tas ženklas – Kristaus monograma (☧). Dangiškasis pažadas išsipildė ir
-  vėliau Konstantinas I žengia pirmuosius krikščionybės triumfo žingsnius. Kartu su imperatoriumi Licinijumi, jis paskelbia Milano Ediktą,
+  ateinančios kultūros ženklu. Pirmasis imperatorius atsivertęs į krikščionybę – <a href="https://en.wikipedia.org/wiki/Constantine_the_Great">Konstantinas I</a>, Šv. Elenos sūnus – prieš reikšmingą mūšį miegodamas,
+  regėjo ženklą danguje ir balsą sakantį: In hoc signo vinces (Šiuo ženklu nugalėsi). Tas ženklas – Kristaus monograma (<a href="https://en.wikipedia.org/wiki/Chi_Rho">☧</a>). Dangiškasis pažadas išsipildė ir
+  vėliau Konstantinas I žengia pirmuosius krikščionybės triumfo žingsnius. Kartu su imperatoriumi Licinijumi, jis paskelbia <a href="https://en.wikipedia.org/wiki/Edict_of_Milan">Milano Ediktą</a>,
   uždraudžiantį krikščionių persekiojimą ir visų konfesijų lygybę. Vėliau pats apsikrikštyja, o šį atsivertimą pakartoja ir visa imperija, kai Teodisijaus
   I valdymo laikotarpiu Krikščionybė tampa Vakarų Romos imperijos religija ir uždraudžiama pagonybė. Tad žiūrovas pats turi pasirinkti linijinio laiko tašką,
   kuriame istorinis pasakojimas prasideda – poetiškam sapne, politiškame įstatyme ar pranašiškame žlugime.
