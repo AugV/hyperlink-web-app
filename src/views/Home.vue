@@ -12,6 +12,7 @@
       <ExhibitionSelection
         v-bind:itemName=exhibitions[0].name
         v-bind:description=exhibitions[0].description
+        link="/expo"
       />
       <ExhibitionSelection
         v-bind:itemName=exhibitions[1].name
@@ -26,7 +27,7 @@
 <script>
 import NavigationBar from '@/components/navigation/NavigationBar.vue';
 import ExhibitionSelection from '@/components/ExhibitionSelection.vue';
-import {exhibitions} from '@/constants/mock-objects';
+import {exhibitions} from '@/constants/exhibitions';
 
 
 export default {

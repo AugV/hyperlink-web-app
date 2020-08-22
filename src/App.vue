@@ -4,8 +4,11 @@
   </div>
 </template>
 
-<style scoped>
+<style>
 .app {
   color: white;
+}
+div {
+  font-family: 'Arial';
 }
 </style>

@@ -1,12 +1,18 @@
 <template>
     <div>
+
         <div class="folded" v-on:click='itemClicked'>
             {{itemName}}
         </div>
 
         <div class="unfolded" v-bind:div="collapsed" v-if='!collapsed'>
+
             {{description}}
-              <router-link class="link" to="/expo">...view</router-link>
+
+            <router-link class="link" v-if={link} v-bind:to="link">
+              ...view
+            </router-link>
+
         </div>
     </div>
 </template>
@@ -19,6 +25,7 @@ export default {
   props: {
     itemName: String,
     description: String,
+    link: String,
   },
   data: () => ({
     collapsed,
@@ -36,16 +43,17 @@ export default {
   .folded {
       font-size: 24pt;
       color:white;
-      font-family: 'Roboto';
+      margin-bottom: 30px;
+      cursor: pointer;
   }
 
   .unfolded {
-      font-size: 18pt;
+      font-size: 16pt;
       text-align: justify;
       color:white;
-      font-family: 'Roboto';
-      font-weight: 300;
+      font-weight: 100;
       display: inline-block;
+      margin-bottom: 50px;
   }
 
   .link {

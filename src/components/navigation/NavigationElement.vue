@@ -19,7 +19,6 @@ export default {
 <style scoped>
     div {
         color: white;
-        font-family: 'Roboto';
         font-size: 18pt;
     }
     div :hover {
