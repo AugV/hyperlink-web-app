@@ -1,8 +1,9 @@
 <template>
 <div>
-    <NavigationBar/>
+    <NavigationBar
+      :leftElement="leftNavElement"
+    />
   <div class="home">
-
 
     <div class="landing-hyperlink">
         <router-link to="/home">Hyperlink</router-link>
@@ -29,6 +30,8 @@ import NavigationBar from '@/components/navigation/NavigationBar.vue';
 import ExhibitionSelection from '@/components/ExhibitionSelection.vue';
 import {exhibitions} from '@/constants/exhibitions';
 
+const leftNavElement = {name: 'Apie', path: '/about'};
+const rightNavElement = {name: 'Kontaktai', path: '/contacts'};
 
 export default {
   name: 'Home',
@@ -36,7 +39,11 @@ export default {
     NavigationBar,
     ExhibitionSelection,
   },
-  data: () => ({exhibitions}),
+  data: () => ({
+    exhibitions,
+    leftNavElement,
+    rightNavElement,
+  }),
 };
 </script>
 

@@ -13,7 +13,7 @@ export const exhibitions = [
     darydama sąmoningas perkėlimo klaidas, vaizdus apšviečia nauja – kuriančia prasme.`,
   },
   {
-    name: 'Apstybės/Superfluitates',
+    name: 'Apstybės / Superfluitates',
     description: `Paroda numatyta 2021`,
   },
 ];

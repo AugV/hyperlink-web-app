@@ -246,6 +246,7 @@ export default {
     color:white;
     margin-bottom: 10px;
   }
+
   .text {
     text-align: justify;
     padding: 0px 8px 0px 8px;

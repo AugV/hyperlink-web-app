@@ -1,16 +1,15 @@
 <template>
     <div>
-        <div class="left-element">
+        <div v-if="leftElement" class="left-element">
             <NavigationElement
-                linkName="About"
-                linkPath="/about"
+                :linkName="leftElement.name"
+                :linkPath="leftElement.path"
             />
         </div>
-
-        <div class="right-element">
+        <div v-if="rightElement" class="right-element">
             <NavigationElement
-                linkName="Contacts"
-                linkPath="/contacts"
+                :linkName="rightElement.name"
+                :linkPath="rightElement.path"
             />
         </div>
         <div style="clear:both"></div>
@@ -22,6 +21,10 @@ import NavigationElement from '@/components/navigation/NavigationElement';
 
 export default {
   name: 'NavigationBar',
+  props: {
+    leftElement: {name: String, path: String},
+    rightElement: {name: String, path: String},
+  },
   components: {
     NavigationElement,
   },
