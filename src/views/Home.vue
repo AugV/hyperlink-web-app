@@ -48,17 +48,17 @@ export default {
 </script>
 
 <style scoped>
-    .landing-hyperlink {
-      margin-top: 30%;
-      margin-bottom: 50px;
-      font-size: 48pt;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-    .exhibition-list {
-      margin: 5%;
-    }
+  .landing-hyperlink {
+    margin-top: 30%;
+    margin-bottom: 50px;
+    font-size: 48pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .exhibition-list {
+    margin: 5%;
+  }
 </style>
 

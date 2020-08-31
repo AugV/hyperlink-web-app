@@ -11,4 +11,10 @@
 div {
   font-family: 'Arial';
 }
+a {
+  color:rgb(35, 79, 180);
+}
+a:hover {
+  color:rgb(220, 176, 75);
+}
 </style>

@@ -4,8 +4,8 @@
 <div class="header"> Hyperlink </div>
 <img class='img' v-bind:src="images.geraPradziaPuseDarbo"/>
 
-<p>
-  “Gera pradžia - pusė darbo / Initium est dimidium bonum opus”, 2019 m., drobė, aliejus, 90x92 cm
+<p class='image-description'>
+  Gera pradžia - pusė darbo / Initium est dimidium bonum opus, 2019 m., drobė, aliejus, 90x92 cm
 </p>
 
 <p>
@@ -53,8 +53,8 @@
 
 <img class='img' v-bind:src="images.liudnojoVaizdoRiteris"/>
 
-<p>
-  "Liūdnojo vaizdo riteris iš Krasnojarsko / Tristis imago eques Krasnoyarsk", 2019 m., drobė, aliejus, akrilas, 160x140 cm
+<p class='image-description'>
+  Liūdnojo vaizdo riteris iš Krasnojarsko / Tristis imago eques Krasnoyarsk, 2019 m., drobė, aliejus, akrilas, 160x140 cm
 </p>
 
 <p>
@@ -92,15 +92,15 @@
 
 <img class='img' v-bind:src="images.kaipTenSuTaLaisvaValia"/>
 
-<p>
-  “Kaip ten su ta laisva valia, Tomai? / Ut quid liberum arbitrium, Thoma?”, 2020 m., drobė, aliejus, 100x90 cm
+<p class='image-description'>
+  Kaip ten su ta laisva valia, Tomai? / Ut quid liberum arbitrium, Thoma?, 2020 m., drobė, aliejus, 100x90 cm
 </p>
 
 <p>
   <a href="https://en.wikipedia.org/wiki/Summa_Theologica">Summa Theologiae</a> yra reikšmingiausias <a href="https://en.wikipedia.org/wiki/Thomas_Aquinas">Šv. Tomo Akviniečio</a> darbas, kuriame aptariama gausybė įvairiausių temų, nuo argumentų,
    kuriais bandomas įrodyti Dievo egzistavimas iki draudimų imti skolų palūkanas ar perkainoti prekes (šiuolaikiniai bankai ir
    pavyzdžiui Apple kompanija pagal jį negalėtų egzistuoti). Viena iš temų – liberum arbitrum (laisva valia), kurioje dalyvauja
-   sielos galios – protas ir valia. Ut quid liberum arbitrium, Thoma? (Tai kaip ten su ta laisva valia, Thomai?)
+   sielos galios – protas ir valia. Ut quid liberum arbitrium, Thoma? (Tai kaip ten su ta laisva valia, Tomai?)
 </p>
 
 <p>
@@ -132,8 +132,8 @@
 
 <img class='img' v-bind:src="images.abipuseMeile"/>
 
-<p>
-  “Abipusė meilė / Mutua caritate”, 2020 m., drobė, aliejus, 50x40 cm
+<p class='image-description'>
+  Abipusė meilė / Mutua caritate, 2020 m., drobė, aliejus, 50x40 cm
 </p>
 
 <p>
@@ -153,7 +153,7 @@
 
 <img class='img' v-bind:src="images.nebijok"/>
 
-<p>“Nebijok / Nolite timere”, 2020 m., drobė, aliejus, 120x110 cm (apytiksliai išmatavimai)</p>
+<p class='image-description'>Nebijok / Nolite timere, 2020 m., drobė, aliejus, 120x110 cm </p>
 
 <p>
   Nolite timere (Nebijok), prieš tave liepsningoji būtybė <a href="https://en.wikipedia.org/wiki/Seraph">Serafimas</a>, pagal <a href="https://en.wikipedia.org/wiki/Book_of_Revelation">Apreiškimą Jonui</a>, kuris regėjo priešais sostą
@@ -176,7 +176,9 @@
   paradoksaliai įrodant būtent serafimų pranašumą tikėjimo akivaizdoje.
 </p>
 
-<p>“Čia yra tik iliuzija / Hic est praebebit spem fallacem”, 2020 m., drobė, aliejus, lakas, 140x120 cm (apytiksliai išmatavimai)</p>
+<img class='img' v-bind:src="images.ciaYraTikIliuzija"/>
+
+<p class='image-description'>Čia yra tik iliuzija / Hic est praebebit spem fallacem, 2020 m., drobė, aliejus, lakas, 160x120 cm </p>
 
 <p>
   Kas, jei ne ekscentriškai apsirengęs kvailys gali pasakyti mums tiesą ir nebūti nukirsdintas? Juokdarys ir sako: „Hic est praebebit spem fallacem“
@@ -186,7 +188,9 @@
   vynu, nuo kurio du jau buvo mirę. Šv. Jonas atsigėręs ne tik nenumirė, bet ir prikėlė minėtus lavonus.
 </p>
 
-<p>“Jis draugiškas, nesikandžioja / Est amica, non mordet”, 2019 m., drobė, aliejus, akrilas, 96x67 cm</p>
+<img class='img' v-bind:src="images.jisDraugiskasNesikandzioja"/>
+
+<p class='image-description'>Jis draugiškas, nesikandžioja / Est amica, non mordet, 2019 m., drobė, aliejus, akrilas, 96x67 cm</p>
 
 <p>
   <a href="https://en.wikipedia.org/wiki/Lion#Cultural_significance">Liūtas</a> Šventame Rašte minimas dažnai ir gali simbolizuoti drąsą, jėgą, kovą, kilnumą ir žiaurumą, o dėl savo galybės dažnai prilyginimas
@@ -204,7 +208,7 @@
 
 <img class='img' v-bind:src="images.imkTauNiekoNebus"/>
 
-<p>“Imk, tau nieko nebus / Suscipe, non nolueritis”, 2020 m., drobė, aliejus, 60x90 cm (apytiksliai išmatavimai)</p>
+<p class='image-description'>Imk, tau nieko nebus / Suscipe, non nolueritis, 2020 m., drobė, aliejus, 65x90 cm </p>
 
 
 <p>
@@ -221,7 +225,7 @@
 
 <img class='img' v-bind:src="images.undinesPamokymai"/>
 
-<p>"Undinės pamokymai / Nereides monita” 2019 m., drobė, aliejus, akrilas, 100x80 cm</p>
+<p class='image-description'>Undinės pamokymai / Nereides monita 2019 m., drobė, aliejus, akrilas, 100x80 cm</p>
 
 </div>
 </template>
@@ -256,4 +260,13 @@ export default {
     max-width: 100%;
     height: auto;
   }
+
+  .image-description {
+    font-size: 14pt;
+  }
+
+  .text a:visited {
+    color:rgb(220, 176, 75);
+  }
+
 </style>
