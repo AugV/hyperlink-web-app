@@ -32,7 +32,6 @@ export default {
   }),
   methods: {
     itemClicked: function() {
-      console.log(this);
       this.collapsed = !this.collapsed;
     },
   },
