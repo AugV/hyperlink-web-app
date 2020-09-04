@@ -2,17 +2,19 @@
     <div>
 
         <div class="folded" v-on:click='itemClicked'>
+          <div class='clickable'>
             {{itemName}}
+          </div>
         </div>
 
         <div class="unfolded" v-bind:div="collapsed" v-if='!collapsed'>
 
             {{description}}
-
-            <router-link class="link" v-if={link} v-bind:to="link">
-              ...view
-            </router-link>
-
+              <router-link class="link" v-if={link} v-bind:to="link">
+                <div class='clickable'>
+                  ...žiūrėti
+                </div>
+              </router-link>
         </div>
     </div>
 </template>

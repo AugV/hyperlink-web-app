@@ -1,6 +1,6 @@
 <template>
     <router-link :to="linkPath" tag='div' >
-        <div>
+        <div class="clickable">
             {{linkName}}
         </div>
     </router-link>

@@ -5,16 +5,23 @@
 </template>
 
 <style>
-.app {
-  color: white;
-}
-div {
-  font-family: 'Arial';
-}
-a {
-  color:rgb(35, 79, 180);
-}
-a:hover {
-  color:rgb(220, 176, 75);
-}
+  .app {
+    color: white;
+  }
+
+  .clickable:hover {
+    color:rgb(220, 176, 75);
+  }
+
+  div {
+    font-family: 'Arial';
+  }
+
+  a {
+    color:rgb(35, 79, 180);
+  }
+
+  a:hover {
+    color:rgb(220, 176, 75);
+  }
 </style>
