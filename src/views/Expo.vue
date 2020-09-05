@@ -2,7 +2,8 @@
 <!-- eslint-disable max-len -->
 <div class="text">
 <div class="header"> Hyperlink </div>
-<img class='img' v-bind:src="images.geraPradziaPuseDarbo"/>
+
+<AppImage :image='images.geraPradziaPuseDarbo'/>
 
 <p class='image-description'>
   Gera pradžia - pusė darbo / Initium est dimidium bonum opus, 2019 m., drobė, aliejus, 90x92 cm
@@ -51,7 +52,7 @@
   sutanas, o aistrą ir nuodėmę simbolizuoja ir <a href="https://en.wikipedia.org/wiki/Mary_Magdalene">Marijos Magdalietės</a> drabužis.
 </p>
 
-<img class='img' v-bind:src="images.liudnojoVaizdoRiteris"/>
+<AppImage :image="images.liudnojoVaizdoRiteris"/>
 
 <p class='image-description'>
   Liūdnojo vaizdo riteris iš Krasnojarsko / Tristis imago eques Krasnoyarsk, 2019 m., drobė, aliejus, akrilas, 160x140 cm
@@ -74,7 +75,7 @@
   Didžiulė meška, susipainiojusi elektronų trajektorijose ir bandanti praplėšti atomą, yra ta galinga mokslo mašina, kuri žmones priartina
   prie Dievo galios – galios kurti ir naikinti. Atomo galia, patekusi į kvailybe ir nežinojimu persismelkusių žmonių rankas, kelia nevilties
   jausmą ar <a href="https://en.wikipedia.org/wiki/Apocalypse">Apokalipsės</a> reginį, ugnies kamuolį suvalgysiantį savo paties prigimtyje įkalintą žmogaus būtį.
-</P>
+</p>
 
 <p>
   <a href="https://en.wikipedia.org/wiki/Book_of_Deuteronomy">Pakartoto įstatymo knygoje</a> rašoma: „Jei susimuštų du vyrai ir vieno jų žmona įsikištų gelbėti savo vyro nuo priešininko rankos, ištiesdama
@@ -90,7 +91,7 @@
   tolimuosius nuotykius ir aistringąją meilę.
 </p>
 
-<img class='img' v-bind:src="images.kaipTenSuTaLaisvaValia"/>
+<AppImage :image="images.kaipTenSuTaLaisvaValia"/>
 
 <p class='image-description'>
   Kaip ten su ta laisva valia, Tomai? / Ut quid liberum arbitrium, Thoma?, 2020 m., drobė, aliejus, 100x90 cm
@@ -130,7 +131,7 @@
   <a href="https://en.wikipedia.org/wiki/Perennial_philosophy">philosophia perennis</a> (amžinoji filosofija).
 </p>
 
-<img class='img' v-bind:src="images.abipuseMeile"/>
+<AppImage :image="images.abipuseMeile"/>
 
 <p class='image-description'>
   Abipusė meilė / Mutua caritate, 2020 m., drobė, aliejus, 50x40 cm
@@ -151,7 +152,7 @@
   tokiu būdu įrodančiam jo teisumą ir skausmingai paverčiančiam kankinį Šventu.
 </p>
 
-<img class='img' v-bind:src="images.nebijok"/>
+<AppImage :image="images.nebijok"/>
 
 <p class='image-description'>Nebijok / Nolite timere, 2020 m., drobė, aliejus, 120x110 cm </p>
 
@@ -176,7 +177,7 @@
   paradoksaliai įrodant būtent serafimų pranašumą tikėjimo akivaizdoje.
 </p>
 
-<img class='img' v-bind:src="images.ciaYraTikIliuzija"/>
+<AppImage :image="images.ciaYraTikIliuzija"/>
 
 <p class='image-description'>Čia yra tik iliuzija / Hic est praebebit spem fallacem, 2020 m., drobė, aliejus, lakas, 160x120 cm </p>
 
@@ -188,7 +189,7 @@
   vynu, nuo kurio du jau buvo mirę. Šv. Jonas atsigėręs ne tik nenumirė, bet ir prikėlė minėtus lavonus.
 </p>
 
-<img class='img' v-bind:src="images.jisDraugiskasNesikandzioja"/>
+<AppImage :image="images.jisDraugiskasNesikandzioja"/>
 
 <p class='image-description'>Jis draugiškas, nesikandžioja / Est amica, non mordet, 2019 m., drobė, aliejus, akrilas, 96x67 cm</p>
 
@@ -206,7 +207,7 @@
   nagrinėjama jokios kitos valdžios, ir po Dievo ir dieviškojo įstatymo Popiežius buvo <a href="https://en.wikipedia.org/wiki/Absolute_(philosophy)">absoliutus</a>.
 </p>
 
-<img class='img' v-bind:src="images.imkTauNiekoNebus"/>
+<AppImage :image="images.imkTauNiekoNebus"/>
 
 <p class='image-description'>Imk, tau nieko nebus / Suscipe, non nolueritis, 2020 m., drobė, aliejus, 65x90 cm </p>
 
@@ -223,7 +224,7 @@
   gyvenimo misteriją, sakralųjį paslaptingumą ir dvasingumą – šventais po truputį tapo kiti raštai.
 </p>
 
-<img class='img' v-bind:src="images.undinesPamokymai"/>
+<AppImage :image="images.undinesPamokymai"/>
 
 <p class='image-description'>Undinės pamokymai / Nereides monita 2019 m., drobė, aliejus, akrilas, 100x80 cm</p>
 
@@ -232,6 +233,7 @@
 
 <script>
 import {images} from '@/constants/images.js';
+import AppImage from '@/components/AppImage.vue';
 
 export default {
   name: 'Expo',
@@ -239,6 +241,9 @@ export default {
     return {
       images,
     };
+  },
+  components: {
+    AppImage,
   },
 };
 </script>

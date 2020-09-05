@@ -10,14 +10,14 @@
     </div>
 
     <div class="exhibition-list">
-      <ExhibitionSelection
-        v-bind:itemName=exhibitions[0].name
-        v-bind:description=exhibitions[0].description
+      <HomeExhibitionSelection
+        :itemName=exhibitions[0].name
+        :description=exhibitions[0].description
         link="/expo"
       />
-      <ExhibitionSelection
-        v-bind:itemName=exhibitions[1].name
-        v-bind:description=exhibitions[1].description
+      <HomeExhibitionSelection
+        :itemName=exhibitions[1].name
+        :description=exhibitions[1].description
       />
     </div>
 
@@ -27,7 +27,7 @@
 
 <script>
 import NavigationBar from '@/components/navigation/NavigationBar.vue';
-import ExhibitionSelection from '@/components/ExhibitionSelection.vue';
+import HomeExhibitionSelection from '@/components/HomeExhibitionSelection.vue';
 import {exhibitions} from '@/constants/exhibitions';
 
 const leftNavElement = {name: 'Apie', path: '/about'};
@@ -37,7 +37,7 @@ export default {
   name: 'Home',
   components: {
     NavigationBar,
-    ExhibitionSelection,
+    HomeExhibitionSelection,
   },
   data: () => ({
     exhibitions,

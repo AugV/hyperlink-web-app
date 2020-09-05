@@ -10,7 +10,7 @@
         <div class="unfolded" v-bind:div="collapsed" v-if='!collapsed'>
 
             {{description}}
-              <router-link class="link" v-if={link} v-bind:to="link">
+              <router-link v-if={link}  class="link" v-bind:to="link || ''">
                 <div class='clickable'>
                   ...žiūrėti
                 </div>
@@ -23,7 +23,7 @@
 const collapsed = true;
 
 export default {
-  name: 'ExhibitionSelection',
+  name: 'HomeExhibitionSelection',
   props: {
     itemName: String,
     description: String,
