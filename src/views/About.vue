@@ -73,16 +73,18 @@ export default {
 </script>
 
 <style scoped>
+  .about {
+    text-align: justify;
+    padding: 0px 8px 15px 8px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
   .header {
     margin-top: 100px;
     text-align: left;
     font-size: 24pt;
     color:white;
-  }
-
-  .about {
-      text-align: justify;
-      padding: 0px 8px 15px 8px;
   }
 
   .contacts {

@@ -55,6 +55,8 @@ export default {
       font-weight: 100;
       display: inline-block;
       margin-bottom: 50px;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
   }
 
   .link {

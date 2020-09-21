@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <div v-if="leftElement" class="left-element">
             <NavigationElement
                 :linkName="leftElement.name"
@@ -32,12 +32,13 @@ export default {
 </script>
 
 <style scoped>
+    .container {
+        margin: 5%;
+    }
     .left-element {
         float:left;
-        margin-left: 5px;
     }
     .right-element {
         float:right;
-        margin-right: 5px;
     }
 </style>

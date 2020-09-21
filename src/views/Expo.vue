@@ -1,13 +1,17 @@
 <template>
 <!-- eslint-disable max-len -->
 <div class="text">
-<div class="header"> Hyperlink </div>
+<div class="header">HYPERLINK</div>
+
+<div class="image-title">
+  INITIUM EST DIMIDIUM BONUM OPUS
+</div>
+
+<div class="image-sub-title">
+  Gera pradžia - pusė darbo, 2019 m., drobė, aliejus, 90x92 cm
+</div>
 
 <AppImage :image='images.geraPradziaPuseDarbo'/>
-
-<p class='image-description'>
-  Gera pradžia - pusė darbo / Initium est dimidium bonum opus, 2019 m., drobė, aliejus, 90x92 cm
-</p>
 
 <p>
   Kada prasideda viduramžiai? Dažnam rašte, Viduramžių pradžia susiejama su <a href="https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire">Vakarų Romos Imperijos žlugimu</a>.
@@ -52,11 +56,15 @@
   sutanas, o aistrą ir nuodėmę simbolizuoja ir <a href="https://en.wikipedia.org/wiki/Mary_Magdalene">Marijos Magdalietės</a> drabužis.
 </p>
 
-<AppImage :image="images.liudnojoVaizdoRiteris"/>
+<div class="image-title">
+  TRISTIS IMAGO EQUES KRASNOYARSK
+</div>
 
-<p class='image-description'>
-  Liūdnojo vaizdo riteris iš Krasnojarsko / Tristis imago eques Krasnoyarsk, 2019 m., drobė, aliejus, akrilas, 160x140 cm
-</p>
+<div class="image-sub-title">
+  Liūdnojo vaizdo riteris iš Krasnojarsko, 2019 m., drobė, aliejus, akrilas, 160x140 cm
+</div>
+
+<AppImage :image="images.liudnojoVaizdoRiteris"/>
 
 <p>
   Kada baigiasi viduramžiai? Kaip neturi laiko pradžia, taip neturi jo ir pabaiga. Dažnas Viduramžių pabaigą pažymi didžiaisiais
@@ -91,11 +99,15 @@
   tolimuosius nuotykius ir aistringąją meilę.
 </p>
 
-<AppImage :image="images.kaipTenSuTaLaisvaValia"/>
+<div class="image-title">
+  UT QUID LIBERUM ARBITRIUM
+</div>
 
-<p class='image-description'>
-  Kaip ten su ta laisva valia, Tomai? / Ut quid liberum arbitrium, Thoma?, 2020 m., drobė, aliejus, 100x90 cm
-</p>
+<div class="image-sub-title">
+  Kaip ten su ta laisva valia, Tomai?, 2020 m., drobė, aliejus, 100x90 cm
+</div>
+
+<AppImage :image="images.kaipTenSuTaLaisvaValia"/>
 
 <p>
   <a href="https://en.wikipedia.org/wiki/Summa_Theologica">Summa Theologiae</a> yra reikšmingiausias <a href="https://en.wikipedia.org/wiki/Thomas_Aquinas">Šv. Tomo Akviniečio</a> darbas, kuriame aptariama gausybė įvairiausių temų, nuo argumentų,
@@ -131,11 +143,15 @@
   <a href="https://en.wikipedia.org/wiki/Perennial_philosophy">philosophia perennis</a> (amžinoji filosofija).
 </p>
 
-<AppImage :image="images.abipuseMeile"/>
+<div class="image-title">
+  MUTUA CARITATE
+</div>
 
-<p class='image-description'>
-  Abipusė meilė / Mutua caritate, 2020 m., drobė, aliejus, 50x40 cm
-</p>
+<div class="image-sub-title">
+  Abipusė meilė, 2020 m., drobė, aliejus, 50x40 cm
+</div>
+
+<AppImage :image="images.abipuseMeile"/>
 
 <p>
   <a href="https://en.wikipedia.org/wiki/Death_by_sawing">Mirtis perpjaunant</a> – viena žiauriausių egzekucijos formų, kurios susiformavo gerokai anksčiau, bet metodo populiarumas
@@ -152,9 +168,15 @@
   tokiu būdu įrodančiam jo teisumą ir skausmingai paverčiančiam kankinį Šventu.
 </p>
 
-<AppImage :image="images.nebijok"/>
+<div class="image-title">
+  NOLITE TIMERE
+</div>
 
-<p class='image-description'>Nebijok / Nolite timere, 2020 m., drobė, aliejus, 120x110 cm </p>
+<div class="image-sub-title">
+  Nebijok, 2020 m., drobė, aliejus, 120x110 cm
+</div>
+
+<AppImage :image="images.nebijok"/>
 
 <p>
   Nolite timere (Nebijok), prieš tave liepsningoji būtybė <a href="https://en.wikipedia.org/wiki/Seraph">Serafimas</a>, pagal <a href="https://en.wikipedia.org/wiki/Book_of_Revelation">Apreiškimą Jonui</a>, kuris regėjo priešais sostą
@@ -177,6 +199,14 @@
   paradoksaliai įrodant būtent serafimų pranašumą tikėjimo akivaizdoje.
 </p>
 
+<div class="image-title">
+  HIC EST PRAEBEBIT SPEM FALLACEM
+</div>
+
+<div class="image-sub-title">
+  Čia yra tik iliuzija, 2020 m., drobė, aliejus, lakas, 160x120 cm
+</div>
+
 <AppImage :image="images.ciaYraTikIliuzija"/>
 
 <p class='image-description'>Čia yra tik iliuzija / Hic est praebebit spem fallacem, 2020 m., drobė, aliejus, lakas, 160x120 cm </p>
@@ -189,9 +219,15 @@
   vynu, nuo kurio du jau buvo mirę. Šv. Jonas atsigėręs ne tik nenumirė, bet ir prikėlė minėtus lavonus.
 </p>
 
-<AppImage :image="images.jisDraugiskasNesikandzioja"/>
+<div class="image-title">
+  EST AMICA, NON MORDET
+</div>
 
-<p class='image-description'>Jis draugiškas, nesikandžioja / Est amica, non mordet, 2019 m., drobė, aliejus, akrilas, 96x67 cm</p>
+<div class="image-sub-title">
+  Jis draugiškas, nesikandžioja, 2019 m., drobė, aliejus, akrilas, 96x67 cm
+</div>
+
+<AppImage :image="images.jisDraugiskasNesikandzioja"/>
 
 <p>
   <a href="https://en.wikipedia.org/wiki/Lion#Cultural_significance">Liūtas</a> Šventame Rašte minimas dažnai ir gali simbolizuoti drąsą, jėgą, kovą, kilnumą ir žiaurumą, o dėl savo galybės dažnai prilyginimas
@@ -207,26 +243,41 @@
   nagrinėjama jokios kitos valdžios, ir po Dievo ir dieviškojo įstatymo Popiežius buvo <a href="https://en.wikipedia.org/wiki/Absolute_(philosophy)">absoliutus</a>.
 </p>
 
+<div class="image-title">
+  SUSCIPE, NON NOLUERITIS
+</div>
+
+<div class="image-sub-title">
+  Imk, tau nieko nebus, 2020 m., drobė, aliejus, 65x90 cm
+</div>
+
 <AppImage :image="images.imkTauNiekoNebus"/>
-
-<p class='image-description'>Imk, tau nieko nebus / Suscipe, non nolueritis, 2020 m., drobė, aliejus, 65x90 cm </p>
-
 
 <p>
   Pranciškonų ordino generolas <a href="https://en.wikipedia.org/wiki/Bonaventure">Bonaventūras</a>, vėliau gavęs <a href="https://i.ytimg.com/vi/CIx9yVuhtoc/maxresdefault.jpg">Doctor Seraphicus</a> (Serafimų Daktaro) titulą, rašė, kad multiformis <a href="https://en.wikipedia.org/wiki/Aeterna_Dei_sapientia">sapientia
   Dei</a> (daugiaformė Dievo išmintis) yra ryškiai perteikta Šventajame rašte ir yra paslėpta kiekviename pažinime bei kiekvienoje prigimtyje.
   Tačiau žmogus, suviliotas klastingų gyvatės žodžių „Suscipe, non nolueritis“ (Imk, tau nieko nebus), užsigeidė pažinimo ir savo proto
   ribotumo pagundomis neįžvelgė pavojaus. Per plonu liežuviu Velnias kalbėjo ir per puošnų daiktą, užgožusį matymą, jiems siūlė. Todėl žmogus,
-  galų gale, lyg <a href="https://en.wikipedia.org/wiki/Siren_(mythology)">sirenų</a> suviliotas, vedinas galios troškimo atsisuko į Nereides monita (Undinės pamokymus) – mokslą. Ir nors Vakarų pasaulyje
+  galų gale, lyg <a href="https://en.wikipedia.org/wiki/Siren_(mythology)">sirenų</a> suviliotas, vedinas galios troškimo atsisuko į Nereides monita (Undinės pamokymus) – mokslą.
+</p>
+
+<div class="image-title">
+  NEREIDES MONITA
+</div>
+
+<div class="image-sub-title">
+  Undinės pamokymai, 2019 m., drobė, aliejus, akrilas, 100x80 cm
+</div>
+
+<AppImage :image="images.undinesPamokymai"/>
+
+<p>
+  Ir nors Vakarų pasaulyje
   išsiskleidusi krikščionybė mokslo centru pavertė arabų pasaulį, tačiau per jį vėliau į Europą sugrįžo graikų ir romėnų mokslinis bei filosofinis
   palikimas, ir nebe viskas viduramžiuose buvo teologija. Vėlyvajame laikotarpyje gausiai besikuriantys universitetai, išrasta spauda,
   demokratizuotas mokslas leido plisti naujoms idėjoms. Atsiradęs žemiškojo pasaulio aiškumas savo aukso blizgesiu užgožė dangų ir taip panaikino
   gyvenimo misteriją, sakralųjį paslaptingumą ir dvasingumą – šventais po truputį tapo kiti raštai.
 </p>
-
-<AppImage :image="images.undinesPamokymai"/>
-
-<p class='image-description'>Undinės pamokymai / Nereides monita 2019 m., drobė, aliejus, akrilas, 100x80 cm</p>
 
 </div>
 </template>
@@ -251,7 +302,7 @@ export default {
 <style scoped>
   .header {
     text-align: center;
-    font-size: 60pt;
+    font-size: 40pt;
     color:white;
     margin-bottom: 10px;
   }
@@ -268,6 +319,17 @@ export default {
 
   .image-description {
     font-size: 14pt;
+  }
+
+  .image-title {
+    font-size: 18pt;
+    margin-top: 37px;
+    text-align: center;
+  }
+
+  .image-sub-title {
+    font-size: 12pt;
+    text-align: center;
   }
 
   .text a:visited {

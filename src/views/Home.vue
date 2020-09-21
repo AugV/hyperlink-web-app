@@ -4,11 +4,6 @@
       :leftElement="leftNavElement"
     />
   <div class="home">
-
-    <div class="landing-hyperlink">
-        <router-link to="/home">Hyperlink</router-link>
-    </div>
-
     <div class="exhibition-list">
       <HomeExhibitionSelection
         :itemName=exhibitions[0].name
