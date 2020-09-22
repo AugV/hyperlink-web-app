@@ -287,7 +287,7 @@ import {images} from '@/constants/images.js';
 import AppImage from '@/components/AppImage.vue';
 
 export default {
-  name: 'Expo',
+  name: 'HyperlinkExpo',
   data() {
     return {
       images,

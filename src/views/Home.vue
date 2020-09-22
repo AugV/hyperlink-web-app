@@ -1,18 +1,16 @@
 <template>
 <div>
-    <NavigationBar
-      :leftElement="leftNavElement"
-    />
   <div class="home">
     <div class="exhibition-list">
-      <HomeExhibitionSelection
+      <HomeExhibitionContainer
         :itemName=exhibitions[0].name
         :description=exhibitions[0].description
-        link="/expo"
+        link="/hyperlink"
       />
-      <HomeExhibitionSelection
+      <HomeExhibitionContainer
         :itemName=exhibitions[1].name
         :description=exhibitions[1].description
+        link="/superfluitates"
       />
     </div>
 
@@ -21,8 +19,7 @@
 </template>
 
 <script>
-import NavigationBar from '@/components/navigation/NavigationBar.vue';
-import HomeExhibitionSelection from '@/components/HomeExhibitionSelection.vue';
+import HomeExhibitionContainer from '@/components/HomeExhibitionContainer.vue';
 import {exhibitions} from '@/constants/exhibitions';
 
 const leftNavElement = {name: 'Apie', path: '/about'};
@@ -31,8 +28,7 @@ const rightNavElement = {name: 'Kontaktai', path: '/contacts'};
 export default {
   name: 'Home',
   components: {
-    NavigationBar,
-    HomeExhibitionSelection,
+    HomeExhibitionContainer,
   },
   data: () => ({
     exhibitions,

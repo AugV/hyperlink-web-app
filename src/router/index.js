@@ -3,7 +3,8 @@ import VueRouter from 'vue-router';
 import Landing from '../views/Landing';
 import Home from '../views/Home';
 import About from '../views/About';
-import Expo from '../views/Expo';
+import HyperlinkExpo from '../views/HyperlinkExpo';
+import SuperfluitatesExpo from '../views/SuperfluitatesExpo';
 
 Vue.use(VueRouter);
 
@@ -24,9 +25,19 @@ const routes = [
     component: About,
   },
   {
-    path: '/expo',
-    name: 'Expo',
-    component: Expo,
+    path: '/hyperlink',
+    name: 'HyperlinkExpo',
+    component: HyperlinkExpo,
+  },
+  {
+    path: '/superfluitates',
+    name: 'SuperfluitatesExpo',
+    component: SuperfluitatesExpo,
+  },
+  {
+    path: '*',
+    name: 'PageNotFound',
+    component: Landing,
   },
 ];
 

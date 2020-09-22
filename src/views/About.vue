@@ -59,7 +59,7 @@
 <script>
 import NavigationBar from '@/components/navigation/NavigationBar.vue';
 
-const leftNavElement = {name: 'Atgal', path: '/home'};
+const leftNavElement = {name: 'Atgal', path: '/#'};
 
 export default {
   name: 'About',
