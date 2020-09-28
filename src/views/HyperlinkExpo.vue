@@ -209,8 +209,6 @@
 
 <AppImage :image="images.ciaYraTikIliuzija"/>
 
-<p class='image-description'>Čia yra tik iliuzija / Hic est praebebit spem fallacem, 2020 m., drobė, aliejus, lakas, 160x120 cm </p>
-
 <p>
   Kas, jei ne ekscentriškai apsirengęs kvailys gali pasakyti mums tiesą ir nebūti nukirsdintas? Juokdarys ir sako: „Hic est praebebit spem fallacem“
   (Čia yra tik iliuzija), rodydamas pirštu į dangų! Jis verčia pastebėti, jog dangus netikras ir imituoja pasaulio regimybę taip apgaudamas jusles,
