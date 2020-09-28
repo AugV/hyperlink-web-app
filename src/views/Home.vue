@@ -1,15 +1,14 @@
 <template>
 <div>
   <div class="home">
+
     <div class="exhibition-list">
       <HomeExhibitionContainer
-        :itemName=exhibitions[0].name
-        :description=exhibitions[0].description
+        :itemName=expoNamesEnum.HYPERLINK
         link="/hyperlink"
       />
       <HomeExhibitionContainer
-        :itemName=exhibitions[1].name
-        :description=exhibitions[1].description
+        :itemName=expoNamesEnum.SUPERFLUITATES
         link="/superfluitates"
       />
     </div>
@@ -20,7 +19,7 @@
 
 <script>
 import HomeExhibitionContainer from '@/components/HomeExhibitionContainer.vue';
-import {exhibitions} from '@/constants/exhibitions';
+import {expoNamesEnum} from '@/constants/expo-names-enum.js';
 
 const leftNavElement = {name: 'Apie', path: '/about'};
 const rightNavElement = {name: 'Kontaktai', path: '/contacts'};
@@ -31,7 +30,7 @@ export default {
     HomeExhibitionContainer,
   },
   data: () => ({
-    exhibitions,
+    expoNamesEnum,
     leftNavElement,
     rightNavElement,
   }),

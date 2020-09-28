@@ -12,11 +12,11 @@
             </div>
         </router-link>
 
-         <router-link to="/about">
+        <a href="https://en.wikipedia.org/wiki/Nosferatu?fbclid=IwAR3-HU6TyIlyPzHRUxjcTQByiW9M3ghuua97STEn4mSoVywJbzcYSa_-7AE">
             <div class="author">
                 STULTUS SCRIPTOR LINAS BLIŠKEVIČIUS
             </div>
-        </router-link>
+        </a>
     </div>
 </template>
 
