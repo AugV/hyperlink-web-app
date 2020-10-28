@@ -277,6 +277,16 @@
   gyvenimo misteriją, sakralųjį paslaptingumą ir dvasingumą – šventais po truputį tapo kiti raštai.
 </p>
 
+<div class="image-title">
+  UNDE PUER PROFECTUS EST
+</div>
+
+<div class="image-sub-title">
+  Kur dingo vaikas, 2018 m., drobė, aliejus, 50x40 cm
+</div>
+
+<AppImage :image="images.kurDingoVaikas"/>
+
 </div>
 </template>
 

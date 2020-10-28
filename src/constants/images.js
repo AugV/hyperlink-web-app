@@ -59,6 +59,12 @@ const images = {
     width: 1103,
     height: 775,
   },
+  kurDingoVaikas: {
+    urlSmall: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_1%2Fkur_dingo_vaikas%2FKur%20dingo%20vaikas_666x10000.png?alt=media&token=00ab00de-2f13-489a-a83f-e486a38f551e',
+    url: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_1%2Fkur_dingo_vaikas%2FKur%20dingo%20vaikas.png?alt=media&token=4b7cdaca-046e-4436-9d84-b82102305abc',
+    width: 751,
+    height: 937,
+  },
 };
 
 export {images};
