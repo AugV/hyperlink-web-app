@@ -40,9 +40,12 @@
       </div>
 
       <div>
-        <a href="mailto:mo.radziunaite@gmail.com">
-          mo.radziunaite@gmail.com
-        </a>
+        <a href="#" class="cryptedmail"
+          data-name="mo.radziunaite"
+          data-domain="gmail"
+          data-tld="com"
+          onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">
+          </a>
       </div>
 
       <div>
@@ -96,4 +99,7 @@ export default {
     margin-top: 5px;
   }
 
+  .cryptedmail:after {
+    content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
+  }
 </style>
