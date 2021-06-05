@@ -1,5 +1,13 @@
 <template>
   <div class='container'>
+    <div class="image-title">
+      {{ image.title }}
+    </div>
+
+    <div class="image-sub-title">
+      {{ image.subTitle }}
+    </div>
+
     <div
       v-show='isLoading'
       class='skeleton'
@@ -42,6 +50,19 @@ export default {
 </script>
 
 <style scoped>
+  .image-title {
+    font-size: 18pt;
+    margin-top: 37px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .image-sub-title {
+    font-size: 12pt;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
   .container {
     height: auto;
   }

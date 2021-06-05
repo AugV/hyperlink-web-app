@@ -1,57 +1,53 @@
 <template>
     <div class="container">
-        <div class="landing-hyperlink">
-            <router-link to="/home">
-                HYPERLINK
-            </router-link>
-        </div>
 
-        <router-link to="/about">
-            <div class="author">
-                STULTUS PICTOREM MONIKA RADŽIŪNAITĖ
-            </div>
-        </router-link>
+        <section class="section">
+            <landing-page-section
+                expoLink="/hyperlink"
+                expoText="HYPERLINK"
+                authorText="STULTUS PICTOREM MONIKA RADŽIŪNAITĖ"
+                authorLink="/about"
+                coAuthorText="STULTUS SCRIPTOR LINAS BLIŠKEVIČIUS"
+                coAuthorLink="https://en.wikipedia.org/wiki/Nosferatu?fbclid=IwAR3-HU6TyIlyPzHRUxjcTQByiW9M3ghuua97STEn4mSoVywJbzcYSa_-7AE"
+            />
+        </section>
 
-        <a href="https://en.wikipedia.org/wiki/Nosferatu?fbclid=IwAR3-HU6TyIlyPzHRUxjcTQByiW9M3ghuua97STEn4mSoVywJbzcYSa_-7AE">
-            <div class="author">
-                STULTUS SCRIPTOR LINAS BLIŠKEVIČIUS
-            </div>
-        </a>
+        <section class="section">
+            <landing-page-section
+                expoLink="/superfluitates"
+                expoText="SUPERFLUITATES"
+                authorText="STULTUS PICTOREM MONIKA RADŽIŪNAITĖ"
+                authorLink="/about"
+                coAuthorText="STULTUS CURATOREM LINAS BLIŠKEVIČIUS"
+                coAuthorLink="https://en.wikipedia.org/wiki/Nosferatu?fbclid=IwAR3-HU6TyIlyPzHRUxjcTQByiW9M3ghuua97STEn4mSoVywJbzcYSa_-7AE"
+            />
+        </section>
+
     </div>
 </template>
+
+<script>
+import LandingPageSection from '@/components/LandingPageSection';
+
+export default {
+  name: 'Landing',
+  components: {
+    LandingPageSection,
+  },
+};
+</script>
 
 <style scoped>
 .container {
     margin: 0;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.landing-hyperlink {
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 48pt;
-    margin-bottom: 10px;
-}
-
-@media screen and (max-width: 740px) {
-  .landing-hyperlink {
-    font-size: 42pt;
-  }
-}
-
-.author {
-    width: 100%;
-    text-align: justify;
-    font-size: 13pt;
-    text-align-last: justify;
-}
-
-@media screen and (max-width: 740px) {
-  .author {
-    font-size: 11pt;
-  }
+.section {
+    max-width: 366px;
+    margin-bottom: 80px;
 }
 </style>

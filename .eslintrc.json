@@ -24,5 +24,25 @@
                 "ignoreTemplateLiterals": true
             }
         ]
-    }
+    },
+    "overrides": [
+        {
+          "files": [
+            "*.vue"
+          ],
+          "rules": {
+            "max-len": "off",
+            "vue/max-len": [
+              "error",
+              {
+                "code": 120,
+                "template": 9000,
+                "ignoreTemplateLiterals": true,
+                "ignoreUrls": true,
+                "ignoreStrings": true
+              }
+            ]
+          }
+        }
+      ]
 }

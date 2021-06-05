@@ -1,33 +1,54 @@
 <template>
-    <div>
+    <div class="text">
         <div class="header">SUPERFLUITATES</div>
-        <div class="announcement">
-            Paroda numatyta 2021
-        </div>
+
+        <app-image
+            v-for="[key, image] in Object.entries(SUPERFLUITATES_IMAGES)"
+            :key="key"
+            :image='image'
+        />
+
     </div>
 </template>
+
 <script>
+import {SUPERFLUITATES_IMAGES} from '@/constants/images.js';
+import AppImage from '@/components/AppImage.vue';
+
 export default {
   name: 'SuperfluitatesExpo',
+  data() {
+    return {
+      SUPERFLUITATES_IMAGES,
+    };
+  },
+  components: {
+    AppImage,
+  },
 };
 </script>
 
 <style scoped>
-.header {
+  .header {
     text-align: center;
-    font-size: 26pt;
+    font-size: 40pt;
     color:white;
     margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 740px) {
+  .header {
+    font-size: 26pt;
+  }
 }
 
-.announcement {
-    margin: 0;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
-    white-space: nowrap;
-    font-size: 22pt;
-}
+  .text {
+    text-align: justify;
+    padding: 0px 8px 0px 8px;
+  }
+
+  .text a:visited {
+    color:rgb(220, 176, 75);
+  }
+
 </style>
