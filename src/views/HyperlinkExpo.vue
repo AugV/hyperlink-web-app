@@ -3,15 +3,7 @@
 <div class="text">
 <div class="header">HYPERLINK</div>
 
-<div class="image-title">
-  INITIUM EST DIMIDIUM BONUM OPUS
-</div>
-
-<div class="image-sub-title">
-  Gera pradžia - pusė darbo, 2019 m., drobė, aliejus, 90x92 cm
-</div>
-
-<AppImage :image='images.geraPradziaPuseDarbo'/>
+<app-image :image='HYPERLINK_IMAGES.geraPradziaPuseDarbo' />
 
 <p>
   Kada prasideda viduramžiai? Dažnam rašte, Viduramžių pradžia susiejama su <a href="https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire">Vakarų Romos Imperijos žlugimu</a>.
@@ -56,15 +48,7 @@
   sutanas, o aistrą ir nuodėmę simbolizuoja ir <a href="https://en.wikipedia.org/wiki/Mary_Magdalene">Marijos Magdalietės</a> drabužis.
 </p>
 
-<div class="image-title">
-  TRISTIS IMAGO EQUES KRASNOYARSK
-</div>
-
-<div class="image-sub-title">
-  Liūdnojo vaizdo riteris iš Krasnojarsko, 2019 m., drobė, aliejus, akrilas, 160x140 cm
-</div>
-
-<AppImage :image="images.liudnojoVaizdoRiteris"/>
+<app-image :image="HYPERLINK_IMAGES.liudnojoVaizdoRiteris" />
 
 <p>
   Kada baigiasi viduramžiai? Kaip neturi laiko pradžia, taip neturi jo ir pabaiga. Dažnas Viduramžių pabaigą pažymi didžiaisiais
@@ -99,15 +83,7 @@
   tolimuosius nuotykius ir aistringąją meilę.
 </p>
 
-<div class="image-title">
-  UT QUID LIBERUM ARBITRIUM
-</div>
-
-<div class="image-sub-title">
-  Kaip ten su ta laisva valia, Tomai?, 2020 m., drobė, aliejus, 100x90 cm
-</div>
-
-<AppImage :image="images.kaipTenSuTaLaisvaValia"/>
+<app-image :image="HYPERLINK_IMAGES.kaipTenSuTaLaisvaValia"/>
 
 <p>
   <a href="https://en.wikipedia.org/wiki/Summa_Theologica">Summa Theologiae</a> yra reikšmingiausias <a href="https://en.wikipedia.org/wiki/Thomas_Aquinas">Šv. Tomo Akviniečio</a> darbas, kuriame aptariama gausybė įvairiausių temų, nuo argumentų,
@@ -143,15 +119,7 @@
   <a href="https://en.wikipedia.org/wiki/Perennial_philosophy">philosophia perennis</a> (amžinoji filosofija).
 </p>
 
-<div class="image-title">
-  MUTUA CARITATE
-</div>
-
-<div class="image-sub-title">
-  Abipusė meilė, 2020 m., drobė, aliejus, 50x40 cm
-</div>
-
-<AppImage :image="images.abipuseMeile"/>
+<app-image :image="HYPERLINK_IMAGES.abipuseMeile" />
 
 <p>
   <a href="https://en.wikipedia.org/wiki/Death_by_sawing">Mirtis perpjaunant</a> – viena žiauriausių egzekucijos formų, kurios susiformavo gerokai anksčiau, bet metodo populiarumas
@@ -168,19 +136,11 @@
   tokiu būdu įrodančiam jo teisumą ir skausmingai paverčiančiam kankinį Šventu.
 </p>
 
-<div class="image-title">
-  NOLITE TIMERE
-</div>
-
-<div class="image-sub-title">
-  Nebijok, 2020 m., drobė, aliejus, 120x110 cm
-</div>
-
-<AppImage :image="images.nebijok"/>
+<app-image :image="HYPERLINK_IMAGES.nebijok" />
 
 <p>
   Nolite timere (Nebijok), prieš tave liepsningoji būtybė <a href="https://en.wikipedia.org/wiki/Seraph">Serafimas</a>, pagal <a href="https://en.wikipedia.org/wiki/Book_of_Revelation">Apreiškimą Jonui</a>, kuris regėjo priešais sostą
-  tviskančią stiklo jūrą, panašią į krištolą, o sosto viduryje ir aplinkui sostą keturias <a href="https://img.ifunny.co/images/47c4a2c0de9aa678420469545c6c579c413530c679a1261258c5b6e7756f0086_1.jpg">būtybes pilnas akių</a> iš priekio ir
+  tviskančią stiklo jūrą, panašią į krištolą, o sosto viduryje ir aplinkui sostą keturias <a href="https://img.ifunny.co/HYPERLINK_IMAGES/47c4a2c0de9aa678420469545c6c579c413530c679a1261258c5b6e7756f0086_1.jpg">būtybes pilnas akių</a> iš priekio ir
   iš užpakalio. Pirmoji panaši į liūtą, antra į veršį, trečia su žmogaus veidu, ketvirta panaši į skrendantį erelį, kiekviena
   turinti po šešis sparnus, aplinkui ir viduje pilnom akių ir šaukiančią „Šventas, šventas, šventas yra Galybių Viešpats! Visa
   žemė pilna jo šlovės!“. <a href="https://en.wikipedia.org/wiki/Denis">Šv. Dionizas</a>, Šv. Pauliaus atverstas, pasak <a href="https://en.wikipedia.org/wiki/Hagiography">hagiografijos</a>, nukirsdintas ir tada savo galvą pasikėlęs,
@@ -199,15 +159,7 @@
   paradoksaliai įrodant būtent serafimų pranašumą tikėjimo akivaizdoje.
 </p>
 
-<div class="image-title">
-  HIC EST PRAEBEBIT SPEM FALLACEM
-</div>
-
-<div class="image-sub-title">
-  Čia yra tik iliuzija, 2020 m., drobė, aliejus, lakas, 160x120 cm
-</div>
-
-<AppImage :image="images.ciaYraTikIliuzija"/>
+<app-image :image="HYPERLINK_IMAGES.ciaYraTikIliuzija" />
 
 <p>
   Kas, jei ne ekscentriškai apsirengęs kvailys gali pasakyti mums tiesą ir nebūti nukirsdintas? Juokdarys ir sako: „Hic est praebebit spem fallacem“
@@ -217,15 +169,7 @@
   vynu, nuo kurio du jau buvo mirę. Šv. Jonas atsigėręs ne tik nenumirė, bet ir prikėlė minėtus lavonus.
 </p>
 
-<div class="image-title">
-  EST AMICA, NON MORDET
-</div>
-
-<div class="image-sub-title">
-  Jis draugiškas, nesikandžioja, 2019 m., drobė, aliejus, akrilas, 96x67 cm
-</div>
-
-<AppImage :image="images.jisDraugiskasNesikandzioja"/>
+<app-image :image="HYPERLINK_IMAGES.jisDraugiskasNesikandzioja" />
 
 <p>
   <a href="https://en.wikipedia.org/wiki/Lion#Cultural_significance">Liūtas</a> Šventame Rašte minimas dažnai ir gali simbolizuoti drąsą, jėgą, kovą, kilnumą ir žiaurumą, o dėl savo galybės dažnai prilyginimas
@@ -241,15 +185,7 @@
   nagrinėjama jokios kitos valdžios, ir po Dievo ir dieviškojo įstatymo Popiežius buvo <a href="https://en.wikipedia.org/wiki/Absolute_(philosophy)">absoliutus</a>.
 </p>
 
-<div class="image-title">
-  SUSCIPE, NON NOLUERITIS
-</div>
-
-<div class="image-sub-title">
-  Imk, tau nieko nebus, 2020 m., drobė, aliejus, 65x90 cm
-</div>
-
-<AppImage :image="images.imkTauNiekoNebus"/>
+<app-image :image="HYPERLINK_IMAGES.imkTauNiekoNebus" />
 
 <p>
   Pranciškonų ordino generolas <a href="https://en.wikipedia.org/wiki/Bonaventure">Bonaventūras</a>, vėliau gavęs <a href="https://i.ytimg.com/vi/CIx9yVuhtoc/maxresdefault.jpg">Doctor Seraphicus</a> (Serafimų Daktaro) titulą, rašė, kad multiformis <a href="https://en.wikipedia.org/wiki/Aeterna_Dei_sapientia">sapientia
@@ -259,15 +195,7 @@
   galų gale, lyg <a href="https://en.wikipedia.org/wiki/Siren_(mythology)">sirenų</a> suviliotas, vedinas galios troškimo atsisuko į Nereides monita (Undinės pamokymus) – mokslą.
 </p>
 
-<div class="image-title">
-  NEREIDES MONITA
-</div>
-
-<div class="image-sub-title">
-  Undinės pamokymai, 2019 m., drobė, aliejus, akrilas, 100x80 cm
-</div>
-
-<AppImage :image="images.undinesPamokymai"/>
+<app-image :image="HYPERLINK_IMAGES.undinesPamokymai" />
 
 <p>
   Ir nors Vakarų pasaulyje
@@ -277,28 +205,22 @@
   gyvenimo misteriją, sakralųjį paslaptingumą ir dvasingumą – šventais po truputį tapo kiti raštai.
 </p>
 
-<div class="image-title">
-  UNDE PUER PROFECTUS EST
-</div>
+<app-image :image="HYPERLINK_IMAGES.kurDingoVaikas" />
 
-<div class="image-sub-title">
-  Kur dingo vaikas, 2018 m., drobė, aliejus, 50x40 cm
-</div>
-
-<AppImage :image="images.kurDingoVaikas"/>
+<br/>
 
 </div>
 </template>
 
 <script>
-import {images} from '@/constants/images.js';
+import {HYPERLINK_IMAGES} from '@/constants/images.js';
 import AppImage from '@/components/AppImage.vue';
 
 export default {
   name: 'HyperlinkExpo',
   data() {
     return {
-      images,
+      HYPERLINK_IMAGES,
     };
   },
   components: {
@@ -318,26 +240,6 @@ export default {
   .text {
     text-align: justify;
     padding: 0px 8px 0px 8px;
-  }
-
-  .img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .image-description {
-    font-size: 14pt;
-  }
-
-  .image-title {
-    font-size: 18pt;
-    margin-top: 37px;
-    text-align: center;
-  }
-
-  .image-sub-title {
-    font-size: 12pt;
-    text-align: center;
   }
 
   .text a:visited {

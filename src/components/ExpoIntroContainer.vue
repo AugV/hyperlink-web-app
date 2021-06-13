@@ -1,11 +1,11 @@
 <template>
-    <div>
+    <div class="container">
 
-      <div class='title'>
+      <nav class='title'>
          <router-link v-bind:to="link || ''">
           {{itemName}}
         </router-link>
-      </div>
+      </nav>
 
       <div class="annotation">
           <component :is="expoDescription"/>
@@ -24,7 +24,7 @@ import SuperfluitatesExpoAnnotation from '@/components/SuperfluitatesExpoAnnotat
 import {expoNamesEnum} from '@/constants/expo-names-enum.js';
 
 export default {
-  name: 'HomeExhibitionContainer',
+  name: 'ExpoIntroContainer',
   props: {
     itemName: String,
     link: String,
@@ -43,6 +43,10 @@ export default {
 </script>
 
 <style scoped>
+  .container {
+    margin-top: 200px;
+  }
+
   .title {
     font-size: 24pt;
     margin-bottom: 10px;
