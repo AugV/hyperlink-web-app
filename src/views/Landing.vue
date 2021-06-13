@@ -23,16 +23,21 @@
             />
         </section>
 
+        <section>
+            <hidden-link />
+        </section>
     </div>
 </template>
 
 <script>
 import LandingPageSection from '@/components/LandingPageSection';
+import HiddenLink from '@/components/navigation/HiddenLink';
 
 export default {
   name: 'Landing',
   components: {
     LandingPageSection,
+    HiddenLink,
   },
 };
 </script>

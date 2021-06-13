@@ -1,10 +1,10 @@
 <template>
   <div class='container'>
-    <div class="image-title">
+    <div v-if="!imageOnly" class="image-title">
       {{ image.title }}
     </div>
 
-    <div class="image-sub-title">
+    <div v-if="!imageOnly" class="image-sub-title">
       {{ image.subTitle }}
     </div>
 
@@ -29,6 +29,7 @@ export default {
   name: 'AppImage',
   props: {
     image: Object,
+    imageOnly: Boolean,
   },
   data: () => ({
     isLoading: true,
