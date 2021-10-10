@@ -106,7 +106,7 @@
           <a href="https://en.wikipedia.org/wiki/Last_Judgment"><span>paskutinio
           teismo</span></a> dieną, tik sustiprina ir sutirština gyvenimą, todėl žvelgiant
           iš dabarties galima svarstyti, ar tik ne Juodoji mirtis privertė Europą atgimti
-          ir nauja pradžia pažymėti skaistų atgimimo gaivalą –<i> </i><a href="https://en.wikipedia.org/wiki/Carpe_diem"><i
+          ir nauja pradžia pažymėti skaistų atgimimo gaivalą – <i> </i><a href="https://en.wikipedia.org/wiki/Carpe_diem"><i
           ><span>carpe diem</span></i></a>.
           Bet atgimus amžinai tenka sugrįžti ir prisiminti stiprybę suteikusį laiką bei
           iškilniai pabendrauti su <a href="https://www.youtube.com/watch?v=-fzFHdT7xao"><span
@@ -158,7 +158,7 @@
           nepadėjo stabdyti ligos plitimo, nes nei įprastas kraujo nuleidimas, nei
           bėgimas į tolį nuo įvykių vietos negelbėjo. To meto gydytojai šioje kovoje
           jautėsi bejėgiai ir kartais patys kažkaip „dingdavo“ iš apkrėstųjų miestų.
-          Nepadėjo ir praktinis sveiko gyvenimo vadovas, vadintas<i > </i><a
+          Nepadėjo ir praktinis sveiko gyvenimo vadovas, vadintas <i > </i><a
           href="https://en.wikipedia.org/wiki/Regimen_sanitatis_Salernitanum"><i
           ><span>regimen
           sanitatis</span></i></a> (lot. – sveikatos reguliavimas) ar <i
@@ -273,7 +273,7 @@
 
           <p><a></a><span>Kai pradedama galvoti <a
           href="https://www.amazon.com/Karminas-purpuras-melis-spalvas-Viduramziais/dp/9955656883"><span
-          >apie spalvas vidurmažiais</span></a>, tenka mintyse
+          >apie spalvas viduramžiais</span></a>, tenka mintyse
           įprasminti spalvines prasmes, kurios veikia kaip skiriamasis ženklas bei simbolis
           veikėjuose, objektuose, fonuose ar detalėse. Raudona bei mėlyna supriešinama
           kaip skirtingi <a href="https://en.wikipedia.org/wiki/Geographical_pole"><span
@@ -480,7 +480,7 @@
           nors? Glaudžiai suspiesti ikonografiniai elementai, vaizduojantys objektus ar
           tam tikrus veiksmus yra aliuzija į žinutę, o tų žinučių visuma yra užliejama
           visa naikinančiais <a href="https://en.wikipedia.org/wiki/Impact_event"><span
-          >meteoritai</span></a>. Didžiąją dalį detalių reikšmių
+          >meteoritais</span></a>. Didžiąją dalį detalių reikšmių
           galima rasti <a
           href="https://www.goodreads.com/book/show/15671265-krik-ioni-kosios-ikonografijos-odynas"><span
           >krikščioniškosios ikonografijos žodyne</span></a>, o
@@ -539,7 +539,7 @@
           gaubia mąstytojo ryšį su motina, padariusia didelę įtaką jo atsivertimui iš
           pagonybės ir nuolat besimeldusia, kad tai įvyktų. Tam kas mėgsta žemiškumą, tam
           ir pakojinės grožybės traukia akį, tačiau ir apačion bežiūrint, reikia
-          nepamiršti, jog kiekvienas dailus augalėlis, turi sąvąją mintė: <a
+          nepamiršti, jog kiekvienas dailus augalėlis, turi sąvąją mintį: <a
           href="https://upload.wikimedia.org/wikipedia/commons/d/df/Vinca_major_closeup.jpg"><span
           >Žiemė</span></a> – dėl savo žvaigždiškų žiedlapių
           simbolizuoja <a href="https://en.wikipedia.org/wiki/Our_Lady,_Star_of_the_Sea"><span
@@ -665,7 +665,7 @@
           Vyresnysis</span></a> prirašė visko apie visokius gyvius iš visų pasaulio
           kraštų, gal net matęs visko buvo. Sakoma, kad savo akimis regėjo Vezuvijaus
           kalno išsprogimą ir šiam reikalui suorganizavo, tai ką galima laikyti pirmąja
-          gelbėjimo misija, kuri gal net jam pačiam kainavo gyvybę - kitą dieną jis
+          gelbėjimo misija, kuri gal net jam pačiam kainavo gyvybę – kitą dieną jis
           pasimiręs nuo širdies ir buvo paliktas kažkur netoli Stabijos miesto. Prieš
           metus paskelbta, jog mokslininkai net jo <a
           href="https://www.smithsonianmag.com/smart-news/2000-year-old-skull-might-belong-pliny-elder-180974055/"><span
@@ -683,11 +683,11 @@
           <p><span >Jis teigė, kad
           žmonės žudo panteras vien iš malonumo, tačiau jo teigimu, jas galima iš mirties
           išgelbėti joms davus paragauti žmogaus išmatų. Vis tik, rašo Plinijus, jos per
-          durnos ir neturi atminties, kad galėtų viena su kita pasidalinti šiomis
+          kvailos ir neturi atminties, kad galėtų viena su kita pasidalinti šiomis
           žiniomis, todėl neišsigelbėja pačios. Pačiais viduramžiais apie panteras žinota
           ir kitų faktų. Pavyzdžiui tai, kad jos draugauja su visais gyvūnais išskyrus
           drakonus. Rašyta, kad jos turi akis susidedančias iš apskritimų, o įvairiuose
-          bestiarijuose vaizduojama kaip taškuota arba spalvota lyg <a
+          bestiarijuose vaizduojama kaip taškuota arba spalvota – lyg <a
           href="https://silviareli.files.wordpress.com/2015/01/tunica-de-jose-4.jpg"><span
           >Juozapo</span></a>. Šiaip pantera dėl savojo švelnumo
           minima kaip reprezentuojanti Jėzų Kristų. Antai pabudus, garsiai beriaumojanti,
@@ -703,10 +703,10 @@
           ir lėtai šnekėti, nebuvo nei geras <a
           href="https://www.bernardinai.lt/ka-apie-koronavirusa-pasakytu-sv-tomas-akvinietis/"><span
           >oratorius</span></a>, nei diskutantas ir šiaip turėjo
-          “stambius kaulus”. Tačiau vienuolis, vienas iš scholastikos pradininkų Albertas
+          „stambius kaulus“. Tačiau vienuolis, vienas iš scholastikos pradininkų Albertas
           Didysis yra pasakęs, kad nors jį ir pravardžiuoja, tačiau apie jo riaumojimą
-          kažkada išgirsiąs visas pasaulis. Antai dedikavęs savvo veiklą Dievui, kvailas
-          jautis prašo duonos, o ne meduolių, tiesos, o ne apgaulės, todėl ir priertėjęs
+          kažkada išgirsiąs visas pasaulis. Antai dedikavęs savo veiklą Dievui, kvailas
+          jautis prašo duonos, o ne meduolių, tiesos, o ne apgaulės, todėl ir priartėjęs
           prie aukščiausiojo, kuris lyg koks prancūzas, apsiaustas mėlynu rūbų su auksaspalvėmis
           lelijomis.</span></p>
 
@@ -727,7 +727,7 @@
           href="https://en.wikipedia.org/wiki/Propositiones_ad_Acuendos_Juvenes"><i
           ><span>Propositiones ad
           Acuendos Juvenes </span></i></a><i> </i>arba
-          Problemos jaunimo protui aštrinti: “</span><span
+          Problemos jaunimo protui aštrinti: „</span><span
           >Kartą <a href="https://www.youtube.com/watch?v=U3VKTL00T84">ūkininkas</a> nuėjęs į turgų ir nusipirkęs </span><span
           ><a href="https://en.wikipedia.org/wiki/Wolf"><span>vilką</span></a></span><span
           >, </span><span ><a
@@ -740,13 +740,13 @@
           galėjo tilpti tik jis ir dar kuris vienas iš pirkinių: arba vilkas, arba ožka,
           arba kopūstas.</span>
           <span
-          >Jei paliktų krante
-          vilką su ožka, pastaroji būtų suėsta, o jei ožką su kopūstu - grįžęs ūkininkas
+          > Jei paliktų krante
+          vilką su ožka, pastaroji būtų suėsta, o jei ožką su kopūstu – grįžęs ūkininkas
           terastų ožką.</span>
           <span
-          >Ūkininko galvosūkis
+          > Ūkininko galvosūkis
           buvo kaip perplukdyti visus savo pirkinius į kitą upės krantą sveikus ir gyvus.
-          Kaip jis tai padarė?”</span></p>
+          Kaip jis tai padarė?“</span></p>
 
           <app-image
             :image='SUPERFLUITATES_IMAGES.vitrazaiAntspaudas'
