@@ -87,6 +87,12 @@ const HYPERLINK_IMAGES = {
     width: 751,
     height: 937,
   },
+  paroda: {
+    urlSmall: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_1%2F90176577_2895898190529791_6115139432061337600_o_666x10000.jpg?alt=media&token=37e2e4c5-2a8e-4350-bc5c-be3855357b48',
+    url: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_1%2F90176577_2895898190529791_6115139432061337600_o.jpg?alt=media&token=d8a521ac-fc30-4378-8e4f-455bbd7cd908',
+    width: 1405,
+    height: 937,
+  },
 };
 
 const SUPERFLUITATES_IMAGES = {
@@ -101,9 +107,9 @@ const SUPERFLUITATES_IMAGES = {
   gerioVardu: {
     title: 'In nomine boni',
     subTitle: 'Gėrio vardu, 2021 m., drobė, aliejus, 120x140 cm',
-    urlSmall: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fgerio_vardu%2FG%C4%97rio%20vardu_In%20nomine%20boni_666x10000.jpg?alt=media&token=52659184-4cf5-4a23-8d6d-95176db96766',
-    url: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fgerio_vardu%2FG%C4%97rio%20vardu_In%20nomine%20boni.jpg?alt=media&token=670af22b-94ea-40a6-9860-403398d439fe',
-    width: 1086,
+    urlSmall: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fgerio_vardu%2FG%C4%97rio%20vardu%20_In%20nomine%20boni%20_Vardan%20g%C4%97rio_hd_666x10000.jpg?alt=media&token=bd955386-bbe0-47b5-87f6-2afa36dca880',
+    url: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fgerio_vardu%2FG%C4%97rio%20vardu%20_In%20nomine%20boni%20_Vardan%20g%C4%97rio_hd.jpg?alt=media&token=7dd5690f-0bf5-4850-a653-fd2903bf38c3',
+    width: 1091,
     height: 937,
   },
   isblyskesLinas: {
@@ -119,15 +125,15 @@ const SUPERFLUITATES_IMAGES = {
     subTitle: 'Malda ligoniui, 2020 m., drobė, aliejus, 60x75 cm',
     urlSmall: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fmalda_ligoniui%2FMalda%20ligoniui_Orationis%20ad%20infirmum_666x10000.jpg?alt=media&token=8e7a31dc-5a7b-481b-a8ac-0fc7ad8d6ac2',
     url: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fmalda_ligoniui%2FMalda%20ligoniui_Orationis%20ad%20infirmum.jpg?alt=media&token=9f784650-ac13-431a-98f4-ede74a325e60',
-    width: 1092,
-    height: 869,
+    width: 1176,
+    height: 937,
   },
   pabaigosGrozybes: {
     title: 'Fine pulchritudinis',
     subTitle: 'Pabaigos grožybės, 2021 m., drobė, aliejus, akrilas, 30x24 cm',
-    urlSmall: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fpabaigos_grozybes%2FPabaigos%20gro%C5%BEyb%C4%97s%20%20Fine%20pulchritudinis_666x10000.jpg?alt=media&token=03b07078-db5a-460f-992a-a367239851e5',
-    url: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fpabaigos_grozybes%2FPabaigos%20gro%C5%BEyb%C4%97s%20%20Fine%20pulchritudinis.jpg?alt=media&token=855678c8-f27c-448d-93eb-cb6a33e4183c',
-    width: 756,
+    urlSmall: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fpabaigos_grozybes%2FPabaigos%20gro%C5%BEyb%C4%97s%20_Fine%20pulchritudinis%20_Puikus%20gro%C5%BEis_hd_666x10000.jpg?alt=media&token=092a8de5-2a95-40bc-88ef-b2eb9f576374',
+    url: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fpabaigos_grozybes%2FPabaigos%20gro%C5%BEyb%C4%97s%20_Fine%20pulchritudinis%20_Puikus%20gro%C5%BEis_hd.jpg?alt=media&token=0cb2ec80-e143-40b7-ae03-89b8e66e1ffa',
+    width: 741,
     height: 937,
   },
   augustinasStebi: {
@@ -141,9 +147,9 @@ const SUPERFLUITATES_IMAGES = {
   trysMireKaraliai: {
     title: 'Trium mortuorum regum',
     subTitle: 'Trys mirę karaliai, 2020m., drobė, aliejus, 160x140 cm',
-    urlSmall: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Ftrys_mire_karaliai%2FTrium%20mortuorum%20regum_Trys%20mir%C4%99%20karaliai_666x10000.jpg?alt=media&token=d6eba279-bde0-49fc-ac33-36ba9d930192',
-    url: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Ftrys_mire_karaliai%2FTrium%20mortuorum%20regum_Trys%20mir%C4%99%20karaliai.jpg?alt=media&token=1cd85fd8-58a3-42d0-8166-0d44894e8aa9',
-    width: 844,
+    urlSmall: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Ftrys_mire_karaliai%2FTrys%20mir%C4%99%20karaliai_Trium%20mortuorum%20regum_hd_666x10000.JPG?alt=media&token=1a786cd1-3890-431e-a1f9-dac53d21877a',
+    url: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Ftrys_mire_karaliai%2FTrys%20mir%C4%99%20karaliai_Trium%20mortuorum%20regum_hd.JPG?alt=media&token=d161b3b8-c8df-41a1-9429-583ff244e29e',
+    width: 851,
     height: 937,
   },
   vistTiekNepavyks: {
@@ -157,17 +163,17 @@ const SUPERFLUITATES_IMAGES = {
   zenonaiPasigailek: {
     title: 'Zenons, eleison',
     subTitle: 'Zenonai, pasigailėk, 2021 m., drobė, aliejus, akrilas, 50x40 cm',
-    urlSmall: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fzenonai_pasigailek%2FZenonai%2C%20pasigail%C4%97k_Zenons%2C%20eleison_666x10000.jpg?alt=media&token=723f3711-8ca7-4893-9026-9ff6f9fc1c7c',
-    url: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fzenonai_pasigailek%2FZenonai%2C%20pasigail%C4%97k_Zenons%2C%20eleison.jpg?alt=media&token=09b279b3-8961-40ad-95fc-28efb0c3a209',
-    width: 749,
+    urlSmall: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fzenonai_pasigailek%2FZenonai%2C%20pasigail%C4%97k%20_Zenons%2C%20eleison_hd_666x10000.jpg?alt=media&token=fcadba0d-2c8f-4221-b99e-b10b7291f6cd',
+    url: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fzenonai_pasigailek%2FZenonai%2C%20pasigail%C4%97k%20_Zenons%2C%20eleison_hd.jpg?alt=media&token=38c35621-9f71-46bc-8658-3f11e57f2f04',
+    width: 744,
     height: 937,
   },
   manPrasomDuonos: {
     title: 'Ut mihi, quaeso, panem, non gingerbread',
     subTitle: 'Man prašom duonos, o ne meduolių, 2020 m., drobė, aliejus, 25x20 cm',
-    urlSmall: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fman_prasom_duonos%2FMan%20pra%C5%A1om%20duonos%2C%20o%20ne%20meduoli%C5%B3_Ut%20mihi%2C%20quaeso%2C%20panem%2C%20non%20gingerbread_666x10000.jpg?alt=media&token=b9c44895-8e9c-4c19-abc9-9dc75949b616',
-    url: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fman_prasom_duonos%2FMan%20pra%C5%A1om%20duonos%2C%20o%20ne%20meduoli%C5%B3_Ut%20mihi%2C%20quaeso%2C%20panem%2C%20non%20gingerbread.jpg?alt=media&token=c351d8ec-89ef-4e84-9d34-f6ab809c6d72',
-    width: 750,
+    urlSmall: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fman_prasom_duonos%2Fman_prasom_duonos_hd_666x10000.jpg?alt=media&token=dbac092e-158e-493e-b603-6d7bb6aa2415',
+    url: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fman_prasom_duonos%2Fman_prasom_duonos_hd.jpg?alt=media&token=f1e0b490-ffe0-4160-9e9b-f939c2a261ce',
+    width: 751,
     height: 937,
   },
   vidineRamybeKunas: {
@@ -189,9 +195,29 @@ const SUPERFLUITATES_IMAGES = {
   visiemNeitiksi: {
     title: 'Non omnis tibi placet',
     subTitle: 'Visiem neįtiksi, 2020 m. drobė, aliejus, 100x100 cm',
-    urlSmall: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fvisiem_neitiksi%2FvisiemNeitiksi_666x10000.jpg?alt=media&token=37aeb8da-dc7f-44b5-9c51-1ecfeb35e597',
-    url: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fvisiem_neitiksi%2FvisiemNeitiksi.jpg?alt=media&token=7320cddf-5bbf-47ba-96d9-c22d75c8b55c',
-    width: 905,
+    urlSmall: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fvisiem_neitiksi%2Fvisiem_neitiksi_hd_666x10000.jpg?alt=media&token=baef0552-899c-4059-b8fe-928b76783b6c',
+    url: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fvisiem_neitiksi%2Fvisiem_neitiksi_hd.jpg?alt=media&token=133519a4-0213-45fd-a101-db6b73fdce41',
+    width: 938,
+    height: 937,
+  },
+  vitrazaiBendras: {
+    urlSmall: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fvitrazai%2Fvitra%C5%BEas_1_666x10000.jpg?alt=media&token=53f0176c-f95f-4baf-a4ad-65a10afee575',
+    url: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fvitrazai%2Fvitra%C5%BEas_1.jpg?alt=media&token=9ea84080-752b-4d2d-96f3-6e84f3d7149a',
+    width: 1402,
+    height: 937,
+  },
+  vitrazaiAntspaudas: {
+    urlSmall: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fvitrazai%2Fvitra%C5%BEas_2_666x10000.jpg?alt=media&token=d439d374-3f89-4b64-ba62-6b6729d3d05b',
+    url: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fvitrazai%2Fvitra%C5%BEas_2.jpg?alt=media&token=3697e310-2afd-4365-8c08-724e55dd9c76',
+    width: 1402,
+    height: 937,
+  },
+  koDelMeiles: {
+    title: 'Quid faciam, quia amor non',
+    subTitle: 'Ko dėl meilės nepadarysi, 2021 m. drobė, aliejus, akrilas, 120x150 cm',
+    urlSmall: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fko_del_meiles%2FKo%20d%C4%97l%20meil%C4%97s%20nepadarysi%20_Quid%20faciam%2C%20quia%20amor%20non%20_K%C4%85%20a%C5%A1%20darysiu%2C%20nes%20meil%C4%97%20negali_hd_666x10000.jpg?alt=media&token=46de2f27-479b-42e8-89a7-161cdcb297cb',
+    url: 'https://firebasestorage.googleapis.com/v0/b/hyperlink-56c33.appspot.com/o/images%2Fexpo_superfluitates%2Fko_del_meiles%2FKo%20d%C4%97l%20meil%C4%97s%20nepadarysi%20_Quid%20faciam%2C%20quia%20amor%20non%20_K%C4%85%20a%C5%A1%20darysiu%2C%20nes%20meil%C4%97%20negali_hd.jpg?alt=media&token=fa70088a-03a9-4174-9807-6d11943cc3d3',
+    width: 1173,
     height: 937,
   },
 };

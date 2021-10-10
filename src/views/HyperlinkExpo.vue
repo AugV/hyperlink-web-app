@@ -1,7 +1,10 @@
 <template>
 <!-- eslint-disable max-len -->
 <div class="text">
-<div class="header">HYPERLINK</div>
+
+<header-container :image="HYPERLINK_IMAGES.paroda">
+  HYPERLINK
+</header-container>
 
 <app-image :image='HYPERLINK_IMAGES.geraPradziaPuseDarbo' />
 
@@ -215,6 +218,7 @@
 <script>
 import {HYPERLINK_IMAGES} from '@/constants/images.js';
 import AppImage from '@/components/AppImage.vue';
+import HeaderContainer from '@/components/HeaderContainer.vue';
 
 export default {
   name: 'HyperlinkExpo',
@@ -225,6 +229,7 @@ export default {
   },
   components: {
     AppImage,
+    HeaderContainer,
   },
 };
 </script>

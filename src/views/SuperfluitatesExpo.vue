@@ -1,12 +1,14 @@
 <template>
     <div class="text">
-        <div class="header">SUPERFLUITATES</div>
+        <header-container :image="SUPERFLUITATES_IMAGES.vitrazaiBendras">
+          SUPERFLUITATES
+        </header-container>
 
         <app-image
             :image='SUPERFLUITATES_IMAGES.trysMireKaraliai'
         />
 
-        <p><span lang=EN>„Jokie kiti laikai
+        <p><span >„Jokie kiti laikai
           taip primygtinai ir be paliovos nediegė kiekvienam žmogui minties apie mirtį
           kaip penkioliktasis šimtmetis. Per visą gyvenimą be atvangos aidi šauksmas: <a
           href="https://en.wikipedia.org/wiki/Memento_mori"><i ><span>memento mori</span></i></a>“ – rašo<a
@@ -43,7 +45,7 @@
           agonijoje. Žmogus visuomet norėjo žinoti ir priežastis, ir pasekmes, galų gale
           kas seks po to.</span></p>
 
-          <p><span lang=EN>Juodoji mirtis
+          <p><span >Juodoji mirtis
           išpopuliarina Trijų Mirusių karalių (arba Trijų gyvųjų ir Trijų mirusiųjų) <a
           href="https://en.wikipedia.org/wiki/The_Three_Dead_Kings"><span
           >siužetą</span></a>, kuris išreiškia laikotarpį, kai jau
@@ -63,7 +65,7 @@
             :image='SUPERFLUITATES_IMAGES.maldaLigoniui'
           />
 
-          <p><span lang=EN>Viduramžiais
+          <p><span >Viduramžiais
           svarstyta, kokia galėjo būti maro priežastis, o versijų būta įvairių.
           Pavyzdžiui, vienas Šiaurės Italijos miesto advokatas <a
           href="https://en.wikipedia.org/wiki/Gabriel_de_Mussis"><span>Gabriele
@@ -91,7 +93,7 @@
           mokymu, visuomet pabrėždavo, kad tyro, natūralaus oro susimaišymas su blogio
           garais ir lemia marą.</span></p>
 
-          <p><span lang=EN><a
+          <p><span ><a
           href="https://en.wikipedia.org/wiki/List_of_natural_disasters_by_death_toll"><span
           >Didžiulė tragedija</span></a> visuomet įsišakoja į
           kultūrą skirtingais pavidalais. Būta ir didžiulio gailesčio, vienatvės ir
@@ -142,7 +144,7 @@
             :image='SUPERFLUITATES_IMAGES.gerioVardu'
           />
 
-          <p><span lang=EN>Nuo XIV a.
+          <p><span >Nuo XIV a.
           Juodosios mirties sprūdžio žmonės patyrė daugybę pasikartojančių mažesnių maro
           epidemijos pliūpsnių. Kasdienį gyvenimą pradėjo persekioti nuolatinis <a
           href="http://poezija.sdf-eu.org/aistis92.html"><span>mirties
@@ -169,7 +171,7 @@
           pavyzdžiui, astrologijos, naujų įrankių ar technikų atsiradimu). Matyt, tas
           bejėgiškumas ir vertė Juodąją mirtį laikyti seniai pranašauta Dievo bausme.</span></p>
 
-          <p><span lang=EN>Kaip ir kiekvienoje
+          <p><span >Kaip ir kiekvienoje
           krizėje, visuomet atsirasdavo <a href="https://en.wikipedia.org/wiki/Trickster"><span
           >gudruolių</span></a>, o maro epidemijomis pasinaudodavo
           ir pikčiau nusiteikusieji. Pavyzdžiui, 1346 metais mongolai pradėjo
@@ -213,7 +215,7 @@
             :image='SUPERFLUITATES_IMAGES.isblyskesLinas'
           />
 
-          <p><span lang=EN>Anapusinio dar
+          <p><span >Anapusinio dar
           nepasiekęs Linas, o šis kasdienis jo gyvenimo siužetas gali būti žiūrimas ir
           kaip konkretaus žmogaus portretas, ir kaip <a
           href="https://www.fiverr.com/rickfromepicgam/turning-your-picture-into-a-medieval-portrait"><span
@@ -252,7 +254,7 @@
           mirgantis sienose užsimena apie apšviečiamąją vitražo savybę – tiek tiesioginę,
           tiek metaforinę. </span></p>
 
-          <p><span lang=EN>Paveikslo istoriją
+          <p><span >Paveikslo istoriją
           apjungia ir išrišančią klaidos galią nurodo darbo pavadinimas, klaidingai
           išverstas <a href="https://translate.google.com/"><span>Google
           vertėjo</span></a> pagalba į lotynų kalbą, apvertus atgal lietuvių kalbon,
@@ -269,8 +271,7 @@
             :image='SUPERFLUITATES_IMAGES.duPoliaiSusikibe'
           />
 
-          <p><a></a><span
-          lang=EN>Kai pradedama galvoti <a
+          <p><a></a><span>Kai pradedama galvoti <a
           href="https://www.amazon.com/Karminas-purpuras-melis-spalvas-Viduramziais/dp/9955656883"><span
           >apie spalvas vidurmažiais</span></a>, tenka mintyse
           įprasminti spalvines prasmes, kurios veikia kaip skiriamasis ženklas bei simbolis
@@ -314,10 +315,168 @@
           ir drobės pakraštyje paliktam žmogui. </span></p>
 
           <app-image
+            :image='SUPERFLUITATES_IMAGES.koDelMeiles'
+          />
+
+          <p><span>Surask vaizdą pagal tekstą: </span></p>
+
+          <p><span>Pasak Senojo Testamento (Pr 11, 1-9), po
+          tvano, kai dar visi kalbėjo viena kalba, žmonės sumanė Šinaro lygumoje, dviejų <a
+          href="https://www.amazon.com/Lemonade-River-James-Garis/dp/0533050936">upių</a>
+          krašte, pastatyti miestą ir <a
+          href="https://en.wikipedia.org/wiki/The_Tower_of_Babel_(Bruegel)">bokštą</a>,
+          kurio viršūnė siektų dangų. Dievas permanė žmonių puikybę ir sutrukdė darbą,
+          sumaišydamas jų kalbą, kad jie nebegalėtų <a
+          href="https://en.wikipedia.org/wiki/Communication_disorder">vieni kitų suprasti</a>;
+          ir išsklaidė juos po visą pasaulį, todėl <a
+          href="https://en.wikipedia.org/wiki/The_Tower_of_Babel_(Bruegel)">statinys</a>
+          likęs nebaigtas. Čia <a
+          href="https://upload.wikimedia.org/wikipedia/commons/3/3f/Bruegel_d._%C3%84.%2C_Pieter_-_Tower_of_Babel_-_Museum_Boijmans_Van_Beuningen_Rotterdam.jpg">bokštas</a>
+          buvo ne tik baigtas statyti, bet ir jo viršūnėje žmonės kerta rankomis su Dievu
+          – pasiektas kelias į sutarimą ir susitarimą. Vieni nepiktnaudžiauja
+          aukštumomis, o kiti nepasididžiuoja į jas įsileisti.</span></p>
+
+          <p><span>Kardas yra <a
+          href="https://aplinkkeliai.lt/vertimai/drasa-kaip-dorybe-i/">drąsos</a> ir
+          narsumo simbolis, o iš kitos pusės – <a
+          href="https://en.wikipedia.org/wiki/Krieg">karinės</a> prievartos, baimės ir
+          nelaimių ženklas. Kaip aštrus ir kertantis įrankis, yra teisingumo simbolis,
+          atskiriantis <a href="https://en.wikipedia.org/wiki/Beyond_Good_and_Evil">gėrį
+          nuo blogio</a>. Kaip ir kiekvieno įrankio atveju, tik nuo jį naudojančiojo
+          priklauso būsi <a href="https://www.youtube.com/watch?v=d4rBh6DBHyw">apgintas
+          ar nužudytas</a>. </span></p>
+
+          <p><span>Šis skaisčiai raudonas <a
+          href="https://en.wikipedia.org/wiki/The_Beast_(Revelation)">drakonas</a>
+          septyniomis galvomis aprašytas Apreiškime šv. Jonui (Apr 13, 1-18). Jis įkūnija
+          blogį, patį velnią. O <a href="https://en.wikipedia.org/wiki/Saint_George">šv.
+          Jurgis</a> visiems žinomas dėl savo didvyriško drakono nukovimo. Čia šie du
+          skirtingi poliai dalyvauja kitokioje kovoje – Jurgis, numetęs šalin ietį su
+          skydu, bando bestiją nukauti čirvų tūzu. </span></p>
+
+          <p><span>Dantės „Pragaro“ pradžioje žmogui, <a
+          href="https://en.wikipedia.org/wiki/Ascension">keliaujančiam dangun</a>, kelią
+          pastoja <a
+          href="https://www.couriermail.com.au/news/opinion/dantes-inferno-had-the-right-idea-for-cat-haters-and-the-inventor-of-flatpack-furniture/news-story/a057a6aec306ef10756fa4d98aa0f2fe">didelė
+          plėšri laukinė katė</a>. Ji aprašyta kaip klastinga, graži, taškuota ir
+          mirtina. Viliojanti žmones savo gundančiu paslaptingumu. Toks buvo pirmas šio
+          personažo išbandymas, bylojantis, jog tiesiausias ir trumpiausias kelias retai
+          kada būna teisingas.</span></p>
+
+          <p><span>Pasakose dažnai atsiranda puošnių ir
+          neišvaizdžių skrynių priešpriešos motyvas. Personažams tenka rinktis pagal
+          išvaizdą ir geriausios širdies veikėjas pasirenka pačią neišvaizdžiausią,
+          tačiau pilną gėrybių, skrynią. Tuo tarpu godūs ir savanaudžiai veikėjai renkasi
+          pačias puošniausias ir gauna šnipštą.</span></p>
+
+          <p><span>Pasak Herodoto, <a
+          href="https://en.wikipedia.org/wiki/Phoenix_(mythology)">feniksas</a> kas 500
+          metų <a href="https://www.youtube.com/watch?v=M5fZwkyF4_o">atgimsta</a> iš savo
+          pelenų. Tai alegorija sielos, kuri kūnui mirus, atgimsta <a
+          href="https://www.lifehack.org/articles/communication/how-disappear-completely-and-start-new-life.html">naujam
+          gyvenimui</a>. Viduramžiais prisidėjo ir skaistumo reikšmė.</span></p>
+
+          <p><span>Anot viduramžių <a
+          href="https://en.wikipedia.org/wiki/Bestiary">bestiarijų</a>, varlės gali kęsti
+          karštį, bet miršta lietuje. Taip pat, <a
+          href="https://www.youtube.com/watch?v=OL4u8GbMLv8">populiariajame folklore</a>
+          mėgstama manyti, kad jos yra sudedamoji meilės eliksyro <a
+          href="https://scroll.in/article/913303/frog-eyes-finger-nails-and-eggs-a-guide-to-making-love-potions-from-old-hebrew-manuscripts">dalis</a>.
+          </span></p>
+
+          <p ><span >XII a. legenda byloja, kad <a
+          href="https://static.wikia.nocookie.net/vampirediaries/images/5/56/WerewolfBite.png/revision/latest?cb=20150420131422">vilkolakiai</a>
+          mėgę nukąsti neištikimų žmonų nosis. Egzistavo ir <a
+          href="https://en.wikipedia.org/wiki/Rhinotomy">nosies rezekcijos</a> bausmės –
+          už neištikimybę, o Lenkijoje už šmeižtą ir burnojimą prieš valdančiuosius.</span></p>
+
+          <p ><span ><a
+          href="https://www.youtube.com/watch?v=egUCF1emVWE">Gulbės</a>, anot Plinijaus
+          Vyresniojo, yra kanibalės ir vis tik negieda gresiant mirčiai. Ši legenda kilo
+          iš Ezopo <a href="https://en.wikipedia.org/wiki/The_Swan_and_the_Goose">pasakėčios</a>,
+          kurioje pasakojama apie žmogų, nusipirkusį gulbę vietoj žąsies. Nujausdama savo
+          <a href="https://www.youtube.com/watch?v=FtYJqeHVqIA">likimą puode</a>, ši
+          užgiedojo gražiausią giesmę. Pirkėjas buvo sužavėtas jos skambesio ir nutarė ją
+          vis tiek parsinešti namo – svečių pramogai puotose. Iškėlus balių ir susirinkus
+          svečiams, šeimininkas liepė gulbei dainuoti, tačiau ši tylėjo. Gulbės
+          savininkas supyko dėl apsijuokimo ir nusprendė ją <a
+          href="https://www.youtube.com/watch?v=9DmNhISpFI0">iškepti</a>. Pajutęs grėsmę,
+          paukštis kaip mat užgiedojo. Žmogus suprato, kad buvo kvaila tikėtis tokios
+          giesmės jam paliepus.</span></p>
+
+          <p ><span >Šventasis Laurynas popiežiaus <a
+          href="https://en.wikipedia.org/wiki/Pope_Sixtus_II">Siksto II</a> paskirtas
+          vienu iš septynių Romos diakonų. Kai Sikstas II buvo pasmerktas mirti, šv.
+          Laurynas norėjo <a href="https://www.youtube.com/watch?v=HzWWmqMxzhg">mirti
+          drauge</a>, bet popiežius, nuspėjęs ir Lauryno likimą, paliepė jam per tris
+          dienas vargšams išdalyti <a
+          href="http://content.time.com/time/subscriber/article/0,33009,833509,00.html">bažnyčios
+          turtą</a> – brangius indus ir pinigus, kurie buvo jo kaip diakono žinioje. Vos
+          Laurynas spėjo taip padaryti, atvyko Romos prefektas ir įsakė <a
+          href="https://www.antstoliai.lt/vbp/public">atiduoti turtą</a>. Apsuptas minios
+          vargšų ir invalidų, Laurynas parodė visą būrį nuskriaustųjų ir tarė: „Štai
+          bažnyčios turtai.“ Už tokį įžūlumą buvo įmestas į kalėjimą ir <a
+          href="https://www.lamaistas.lt/straipsnis/12-paciu-skaniausiu-saslyku-marinavimo-receptu-jonines-pasitinkant-44772">kankinamas
+          ant karštų anglių</a>. Šį baisų <a
+          href="https://iiif.wellcomecollection.org/image/V0041748ETR/full/full/0/default.jpg">kankinimą</a>
+          šventasis ištvėrė, šaipydamasis iš budelių ir paties prefekto. Jis sakė:
+          „Žiūrėk, vienas mano <a
+          href="https://amazingribs.com/tested-recipes/pork-recipes/going-whole-hog-what-you-need-know/">šonas
+          jau iškepė</a>, dabar apversk, apkepink ir valgyk.“</span></p>
+
+          <p ><span ><a
+          href="https://en.wikipedia.org/wiki/Old_Testament">Senojo Testamento</a>
+          vaizdinys – degantis, bet <a href="https://en.wikipedia.org/wiki/Burning_bush">nesudegantis
+          erškėčių krūmas</a>, minimas Išėjimo knygos pasakojime (Iš 3, 1-6). Kai <a
+          href="https://www.youtube.com/watch?v=U0Mg-eZqEdI">Mozė ganė kaimenę</a>,
+          nuvaręs į tyrų gilumą prie Dievo kalno Horebo (Sinajaus), jam apsireiškė Jahvė
+          „degančio krūmo ugnies liepsnoje“ ir liepė išvesti žydų tautą iš Egipto
+          nelaisvės į <a href="https://en.wikipedia.org/wiki/Promised_Land">Pažadėtąją
+          žemę</a>. Degantis, bet nesudegantis <a
+          href="https://www.youtube.com/watch?v=JhmdEq3JhoY">krūmas</a> laikomas dvasinės
+          liepsnos <a href="https://www.youtube.com/watch?v=Q-q1_6TPAE4">amžinąja jėga</a>,
+          dieviškosios ir žmogiškosios prigimties jungties simboliu. Manoma, kad realus
+          degančio krūmo pagrindas – Sinajaus pusiasalyje augantis krūmas, išskiriantis
+          eterinį aliejų ir karštomis dienomis lengvai užsiliepsnojantis. </span></p>
+
+          <p ><span >Sakoma, kad lapės yra gudrios, klastingos ir
+          niekada nevaikšto tiesiai – visada <a
+          href="https://www.youtube.com/watch?v=zcL1H8t6qTo">suka ratus</a>. Šio gyvūno
+          alegorinė reikšmė yra velnio reprezentacija – šėtonas, kaip ir lapė, <a
+          href="https://www.youtube.com/watch?v=Zq9HOBia7UY">apsimeta negyvu</a> tiems,
+          kurie pernelyg džiaugiasi žemiškomis gėrybėmis ir parodo savo <a
+          href="https://en.wikipedia.org/wiki/The_Face_of_Another">tikrąjį veidą</a> tik
+          aukai pakliuvus į nasrus. Tiems, kurių tikėjimas tikras, velnias iš tiesų yra
+          negyvas. </span></p>
+
+          <p ><span >Matyt, Šventajame Rašte <a
+          href="https://www.sadanduseless.com/arabian-sand-boa/">gyvatė</a> buvo
+          pasirinkta didžiajam gundytojui įkūnyti dėl savo itin <a
+          href="https://www.jstor.org/stable/24925828">lankstaus stuburo</a> kaip
+          prisitaikėliškumo, suktumo ir nepatikimumo sugretinimo; <a
+          href="https://www.youtube.com/watch?v=kXNyJjBo8g8">odos keitimo</a> kaip nuogo
+          ir apsirengusio žmogaus palyginimo; <a
+          href="https://www.britannica.com/list/9-of-the-worlds-deadliest-snakes">nuodingo
+          įkandimo</a> kaip žodžio, galinčio apnuodyti mintis. </span></p>
+
+          <p ><span >Viduramžių bestiarijuose rašoma, kad
+          krokodilai <a href="https://en.wikipedia.org/wiki/Crocodile_tears">visuomet
+          verkia</a>, valgydami žmogų. Iš čia ir kilo krokodilo ašarų posakis, nusakantis
+          <a href="https://www.lietuviuzodynas.lt/terminai/Hipokritas">hipokritišką</a>
+          gedulą ir atgailą. </span></p>
+
+          <p ><span >Krikščioniškoje dailėje <a
+          href="https://www.youtube.com/watch?v=yhaXH6uE8aU">balandį</a> įprasta laikyti
+          žmonijos ir Dievo susitaikymo simboliu, nes baigiantis tvanui, <a
+          href="https://en.wikipedia.org/wiki/Noah">Nojus</a> paleido iš laivo šį paukštį
+          norėdamas sužinoti ar vanduo kur nors jau nuseko. Šis grįžo pas jį su
+          alyvmedžio šakele <a href="https://pigeonpedia.com/dove-with-olive-branch/">snape</a>.</span></p>
+
+          <app-image
             :image='SUPERFLUITATES_IMAGES.vistTiekNepavyks'
           />
 
-          <p><span lang=EN>Ar neprimena ko
+          <p><span >Ar neprimena ko
           nors? Glaudžiai suspiesti ikonografiniai elementai, vaizduojantys objektus ar
           tam tikrus veiksmus yra aliuzija į žinutę, o tų žinučių visuma yra užliejama
           visa naikinančiais <a href="https://en.wikipedia.org/wiki/Impact_event"><span
@@ -347,7 +506,7 @@
             :image='SUPERFLUITATES_IMAGES.augustinasStebi'
           />
 
-          <p><span lang=EN><a
+          <p><span ><a
           href="https://en.wikipedia.org/wiki/Augustine_of_Hippo"><span>Šv. Augustinas</span></a> plastinius menus (dailę, skulptūrą) laikė
           žemesniais už muziką ar architektūrą – jie esą imituojantys gamtą. Kaip ir <a
           href="https://en.wikipedia.org/wiki/Pliny_the_Elder"><span>Plinijus
@@ -367,7 +526,7 @@
           individualią išmonę, fantaziją bei atmintį, galima augustiniškai kurti savas
           prasmes.</span></p>
 
-          <p><span lang=EN>Darbas esti lyg <a
+          <p><span >Darbas esti lyg <a
           href="https://en.wikipedia.org/wiki/Illuminated_manuscript#/media/File:Co%C3%ABtivy_Master_-_Leaf_from_a_Book_of_Hours-_Angel_Chasing_a_Devil_(recto)_-_2005.206.a_-_Cleveland_Museum_of_Art.tif"><span
           >viduramžių manuskripto lapas</span></a>, skirtas
           pavadinime minimam teologui ir jo motinai <a
@@ -432,7 +591,7 @@
           />
 
           <p><a></a><span
-          lang=EN>Medievistas ir šiaip mąslus žmogus Umberto Eco savo knygoje taip
+          >Medievistas ir šiaip mąslus žmogus Umberto Eco savo knygoje taip
           parašė: „Viduramžių žmogui daiktas yra bjaurus, jeigu jis nesusijęs su tikslų
           hierarchija, liečiančia žmogų bei jo anapusinę lemtį. Kita vertus, daiktas ir
           neįtraukiamas į šią <a href="https://en.wikipedia.org/wiki/Great_chain_of_being"><span
@@ -474,7 +633,7 @@
             :image='SUPERFLUITATES_IMAGES.pabaigosGrozybes'
           />
 
-          <p><span lang=EN>Buvo toks
+          <p><span >Buvo toks
           Portugalijos karalius <a
           href="https://en.wikipedia.org/wiki/Edward,_King_of_Portugal"><span
           >Edvardas</span></a> garsėjęs savo iškalba ir mąslumu.
@@ -501,7 +660,7 @@
             :image='SUPERFLUITATES_IMAGES.vidineRamybeKunas'
           />
 
-          <p><span lang=EN><a
+          <p><span ><a
           href="https://en.wikipedia.org/wiki/Pliny_the_Elder"><span>Plinijus
           Vyresnysis</span></a> prirašė visko apie visokius gyvius iš visų pasaulio
           kraštų, gal net matęs visko buvo. Sakoma, kad savo akimis regėjo Vezuvijaus
@@ -521,7 +680,7 @@
             :imageOnly="true"
           />
 
-          <p><span lang=EN>Jis teigė, kad
+          <p><span >Jis teigė, kad
           žmonės žudo panteras vien iš malonumo, tačiau jo teigimu, jas galima iš mirties
           išgelbėti joms davus paragauti žmogaus išmatų. Vis tik, rašo Plinijus, jos per
           durnos ir neturi atminties, kad galėtų viena su kita pasidalinti šiomis
@@ -539,7 +698,7 @@
             :image='SUPERFLUITATES_IMAGES.manPrasomDuonos'
           />
 
-          <p><span lang=EN>Šv. Tomas
+          <p><span >Šv. Tomas
           Akvinietis, būdamas studentu, pramintas kvailu jaučiu, mat buvo linkęs tylėti
           ir lėtai šnekėti, nebuvo nei geras <a
           href="https://www.bernardinai.lt/ka-apie-koronavirusa-pasakytu-sv-tomas-akvinietis/"><span
@@ -551,7 +710,7 @@
           prie aukščiausiojo, kuris lyg koks prancūzas, apsiaustas mėlynu rūbų su auksaspalvėmis
           lelijomis.</span></p>
 
-          <p><span lang=EN>Grožį jis supratęs
+          <p><span >Grožį jis supratęs
           kaip daikto atsivėrimą jutiminiam suvokimui, padedančiam suprasti ir patį
           dieviškumą. Jei Dievas yra šviesa, o pasaulis yra spalvingas, tuomet ir
           viduramžių estetika atranda šviesą ir spalvą. Vėliau, gamtoje esančio grožio
@@ -564,36 +723,41 @@
             :image='SUPERFLUITATES_IMAGES.visiemNeitiksi'
           />
 
-          <p><span lang=EN><a
+          <p><span ><a
           href="https://en.wikipedia.org/wiki/Propositiones_ad_Acuendos_Juvenes"><i
           ><span>Propositiones ad
           Acuendos Juvenes </span></i></a><i> </i>arba
-          Problemos jaunimo protui aštrinti: “</span><span lang=EN
+          Problemos jaunimo protui aštrinti: “</span><span
           >Kartą <a href="https://www.youtube.com/watch?v=U3VKTL00T84">ūkininkas</a> nuėjęs į turgų ir nusipirkęs </span><span
-          lang=EN><a href="https://en.wikipedia.org/wiki/Wolf"><span>vilką</span></a></span><span lang=EN
-          >, </span><span lang=EN><a
-          href="https://en.m.wikipedia.org/wiki/Goat"><span>ožką</span></a></span><span lang=EN
+          ><a href="https://en.wikipedia.org/wiki/Wolf"><span>vilką</span></a></span><span
+          >, </span><span ><a
+          href="https://en.m.wikipedia.org/wiki/Goat"><span>ožką</span></a></span><span
           > ir </span><span
-          lang=EN><a href="https://en.m.wikipedia.org/wiki/Cabbage"><span
+          ><a href="https://en.m.wikipedia.org/wiki/Cabbage"><span
           >kopūstą</span></a></span><span
-          lang=EN>. Kelionėje
+          >. Kelionėje
           namo jis priėjęs upės krantą ir pasiskolinęs ten buvusią valtį. Tačiau valtin
           galėjo tilpti tik jis ir dar kuris vienas iš pirkinių: arba vilkas, arba ožka,
           arba kopūstas.</span>
-          <span lang=EN
+          <span
           >Jei paliktų krante
           vilką su ožka, pastaroji būtų suėsta, o jei ožką su kopūstu - grįžęs ūkininkas
           terastų ožką.</span>
-          <span lang=EN
+          <span
           >Ūkininko galvosūkis
           buvo kaip perplukdyti visus savo pirkinius į kitą upės krantą sveikus ir gyvus.
           Kaip jis tai padarė?”</span></p>
+
+          <app-image
+            :image='SUPERFLUITATES_IMAGES.vitrazaiAntspaudas'
+          />
     </div>
 </template>
 
 <script>
 import {SUPERFLUITATES_IMAGES} from '@/constants/images.js';
 import AppImage from '@/components/AppImage.vue';
+import HeaderContainer from '@/components/HeaderContainer.vue';
 
 export default {
   name: 'SuperfluitatesExpo',
@@ -604,24 +768,12 @@ export default {
   },
   components: {
     AppImage,
+    HeaderContainer,
   },
 };
 </script>
 
 <style scoped>
-  .header {
-    text-align: center;
-    font-size: 40pt;
-    color:white;
-    margin-bottom: 10px;
-  }
-
-  @media screen and (max-width: 740px) {
-  .header {
-    font-size: 26pt;
-  }
-}
-
   .text {
     text-align: justify;
     padding: 0px 8px 0px 8px;
@@ -630,5 +782,4 @@ export default {
   .text a:visited {
     color:rgb(220, 176, 75);
   }
-
 </style>
