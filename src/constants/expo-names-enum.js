@@ -1,6 +1,6 @@
 const expoNamesEnum = Object.freeze({
-  'HYPERLINK': 'Hyperlink',
-  'SUPERFLUITATES': 'Superfluitates',
+  'HYPERLINK': 'HYPERLINK',
+  'SUPERFLUITATES': 'SUPERFLUITATES',
 });
 
 export {expoNamesEnum};
