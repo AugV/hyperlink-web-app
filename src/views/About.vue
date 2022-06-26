@@ -7,8 +7,8 @@
   <div class="about">
     <div class="header">Apie</div>
     <p>
-       Jaunosios kartos menininkė Monika Radžiūnaitė šiuo metu yra Vilniaus dailės akademijos
-      tapybos studijų magistrantė. Autorės kūrybai būdinga istorijos interpretacija, senosios tapybos
+       Jaunosios kartos menininkė Monika Radžiūnaitė 2021 baigė tapybos magistro studijas Vilniaus dailės akademijoje.
+      Autorės kūrybai būdinga istorijos interpretacija, senosios tapybos
       elementų suaktualinimas ir kultūrinių nuorodų pasitelkimas tapant siužetus. Menininkės kūriniai
       remiasi nežinojimu, neišmanymu, kvailumu ar klaida. Tai yra kūrybinė strategija, kaip
       sąmoninga kvailumo būsena, išvaduojanti menininkę iš poreikio žinoti tikrąsias vaizdų reikšmes
